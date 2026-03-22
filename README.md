@@ -13,6 +13,7 @@ I build local-first desktop tools, practical automation, and release packaging w
 
 ## Featured public work
 
+- [ResumePilot](https://github.com/aolingge/ResumePilot) - resume optimization and job application toolkit
 - [TrendRadar](https://github.com/aolingge/TrendRadar) - multi-platform hot-topic aggregation and AI analysis toolkit
 - [express-locker-backend](https://github.com/aolingge/express-locker-backend) - express locker and logistics backend service
 - [job-backend](https://github.com/aolingge/job-backend) - career evaluation and job recommendation backend
