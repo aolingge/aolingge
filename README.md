@@ -1,29 +1,42 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,100:111827&text=Aolinge&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38" alt="Aolinge banner" />
+  <img src="./assets/profile-banner.svg" alt="Aolinge profile banner" />
 </p>
 
-<p align="center">
-  <b>桌面工具 · 自动化工作流 · 发布打包</b>
-</p>
+<table>
+  <tr>
+    <td width="34%" valign="top">
 
-<p align="center">
-  I build local-first desktop tools, practical automation, and release packaging workflows.
-</p>
+### Aolinge
 
-## About Me
+`aolingge`
 
-- School: Chongqing University
-- Location: Chongqing City
-- Contact: 1930668092@qq.com
-- Focus: local-first tools, repeatable releases, practical automation
+Chongqing University  
+Chongqing City  
+1930668092@qq.com
 
-## Now
+<br />
 
-- Building small tools that remove repetitive work
-- Turning scattered scripts into reusable workflows
-- Keeping delivery packages clean and easy to hand off
+**Focus**
 
-## Featured public work
+- Desktop tools
+- Automation workflows
+- Release packaging
+- Practical backend utilities
+
+    </td>
+    <td width="66%" valign="top">
+
+### Hi, I'm Aolinge
+
+I build clean tools that remove repetitive work and make delivery easier to trust.
+
+#### Now
+
+- Building local-first desktop tools for everyday workflows
+- Turning scattered scripts into reusable automation
+- Keeping release bundles organized and handoff-ready
+
+#### Featured public work
 
 - [ResumePilot](https://github.com/aolingge/ResumePilot) - resume optimization and job application toolkit
 - [TrendRadar](https://github.com/aolingge/TrendRadar) - multi-platform hot-topic aggregation and AI analysis toolkit
@@ -31,21 +44,25 @@
 - [job-backend](https://github.com/aolingge/job-backend) - career evaluation and job recommendation backend
 - [Summer-Internship-Backend-Repo](https://github.com/aolingge/Summer-Internship-Backend-Repo) - campus social app backend
 
-## Private toolkits
+#### Private toolkits
 
 - Seller operations tools
 - Order management systems
 - OpenClaw workflow suites
 - Resume and job application tooling
 
-## Highlights
+#### Principles
 
 - Prefer practical tools over noisy demos
-- Make release packaging repeatable
 - Keep repositories clean and readable
-- Present work like a portfolio, not a dump
+- Make release packaging repeatable
 
-## Contact
+    </td>
+  </tr>
+</table>
 
-- Email: 1930668092@qq.com
-- GitHub: [@aolingge](https://github.com/aolingge)
+---
+
+<p align="center">
+  <i>If you want a cleaner version of a repo, a release bundle, or a workflow, that is the kind of work I enjoy.</i>
+</p>
