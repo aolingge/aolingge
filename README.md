@@ -1,21 +1,27 @@
-# Aolinge
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,100:111827&text=Aolinge&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38" alt="Aolinge banner" />
+</p>
 
-桌面工具、自动化工作流、发布打包。
+<p align="center">
+  <b>桌面工具 · 自动化工作流 · 发布打包</b>
+</p>
 
-I build local-first desktop tools, practical automation, and release packaging workflows.
+<p align="center">
+  I build local-first desktop tools, practical automation, and release packaging workflows.
+</p>
 
 ## About Me
 
 - School: Chongqing University
 - Location: Chongqing City
 - Contact: 1930668092@qq.com
+- Focus: local-first tools, repeatable releases, practical automation
 
-## What I build
+## Now
 
-- Local-first desktop apps for operations and productivity
-- Workflow automation and packaging pipelines
-- Backend utilities and analysis tools
-- Clean, repeatable delivery bundles
+- Building small tools that remove repetitive work
+- Turning scattered scripts into reusable workflows
+- Keeping delivery packages clean and easy to hand off
 
 ## Featured public work
 
@@ -32,15 +38,14 @@ I build local-first desktop tools, practical automation, and release packaging w
 - OpenClaw workflow suites
 - Resume and job application tooling
 
-## Repo map
+## Highlights
 
-- Production tools
-- Automation & analytics
-- Backend systems
-- Legacy / archived experiments
-
-## Focus
-
-- Keep repositories clean and readable
-- Make release packaging repeatable
 - Prefer practical tools over noisy demos
+- Make release packaging repeatable
+- Keep repositories clean and readable
+- Present work like a portfolio, not a dump
+
+## Contact
+
+- Email: 1930668092@qq.com
+- GitHub: [@aolingge](https://github.com/aolingge)
