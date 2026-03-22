@@ -4,9 +4,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Chongqing%20University-Student-0F172A?style=for-the-badge" alt="Chongqing University" />
-  <img src="https://img.shields.io/badge/City-Chongqing%20City-0F172A?style=for-the-badge" alt="Chongqing City" />
-  <img src="https://img.shields.io/badge/Focus-Desktop%20Tools%20%26%20Automation-0F172A?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Chongqing%20City-Profile-0F172A?style=for-the-badge" alt="Chongqing City" />
+  <img src="https://img.shields.io/badge/Desktop%20Tools-Automation-0F172A?style=for-the-badge" alt="Focus" />
   <img src="https://komarev.com/ghpvc/?username=aolingge&style=for-the-badge&color=0F172A" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1200&color=E2E8F0&center=true&vCenter=true&width=900&lines=Chongqing+University+%7C+Desktop+tools+%7C+Automation+%7C+Release+packaging" alt="Typing SVG" />
 </p>
 
 <table>
@@ -29,6 +33,14 @@ Chongqing City
 **Bio**
 
 把复杂流程做成能复用的工具。
+
+<br />
+
+**Now**
+
+- Building desktop tools that remove repetitive work
+- Turning scripts into reusable automation
+- Keeping release bundles clean and handoff-ready
 
 <br />
 
@@ -108,6 +120,10 @@ I build clean tools, practical automation, and release workflows that are easy t
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=aolingge&theme=transparent&hide_border=true&stroke=334155&ring=60A5FA&fire=F59E0B&currStreakLabel=E5E7EB" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aolingge&theme=github-dark&hide_border=true" alt="GitHub activity graph" />
 </p>
 
 <p align="center">
