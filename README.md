@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Chongqing%20University-Student-0F172A?style=for-the-badge" alt="Chongqing University" />
   <img src="https://img.shields.io/badge/City-Chongqing%20City-0F172A?style=for-the-badge" alt="Chongqing City" />
   <img src="https://img.shields.io/badge/Focus-Desktop%20Tools%20%26%20Automation-0F172A?style=for-the-badge" alt="Focus" />
+  <img src="https://komarev.com/ghpvc/?username=aolingge&style=for-the-badge&color=0F172A" alt="Profile views" />
 </p>
 
 <table>
@@ -34,6 +35,12 @@ Chongqing City
 **Stack**
 
 `Python` · `Java` · `Vue` · `TypeScript`
+
+<br />
+
+**Links**
+
+[GitHub](https://github.com/aolingge) · [Email](mailto:1930668092@qq.com)
 
     </td>
     <td width="66%" valign="top">
@@ -67,6 +74,16 @@ I build clean tools, practical automation, and release workflows that are easy t
 - Practical backend services
 - Clear repository organization
 
+#### Skill set
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
+</p>
+
 #### Public / private map
 
 - Public work: product tools, analysis tools, backend demos
@@ -87,6 +104,14 @@ I build clean tools, practical automation, and release workflows that are easy t
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=aolingge&show_icons=true&hide_border=true&theme=transparent&title_color=E5E7EB&text_color=CBD5E1&icon_color=60A5FA" alt="GitHub stats" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aolingge&layout=compact&hide_border=true&theme=transparent&title_color=E5E7EB&text_color=CBD5E1" alt="Top languages" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aolingge&theme=transparent&hide_border=true&stroke=334155&ring=60A5FA&fire=F59E0B&currStreakLabel=E5E7EB" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aolingge&theme=darkhub&no-frame=true&no-bg=true&margin-w=8" alt="GitHub trophies" />
 </p>
 
 <p align="center">
