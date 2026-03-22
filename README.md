@@ -4,6 +4,12 @@
 
 I build local-first desktop tools, practical automation, and release packaging workflows.
 
+## About Me
+
+- School: Chongqing University
+- Location: Chongqing City
+- Contact: 1930668092@qq.com
+
 ## What I build
 
 - Local-first desktop apps for operations and productivity
