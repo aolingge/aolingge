@@ -6,11 +6,6 @@
   <img src="https://img.shields.io/badge/Chongqing%20University-Student-0F172A?style=for-the-badge" alt="Chongqing University" />
   <img src="https://img.shields.io/badge/Chongqing%20City-Profile-0F172A?style=for-the-badge" alt="Chongqing City" />
   <img src="https://img.shields.io/badge/Desktop%20Tools-Automation-0F172A?style=for-the-badge" alt="Focus" />
-  <img src="https://komarev.com/ghpvc/?username=aolingge&style=for-the-badge&color=0F172A" alt="Profile views" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1200&color=E2E8F0&center=true&vCenter=true&width=900&lines=Chongqing+University+%7C+Desktop+tools+%7C+Automation+%7C+Release+packaging" alt="Typing SVG" />
 </p>
 
 <table>
@@ -22,8 +17,6 @@
 
 `aolingge`
 
-<br />
-
 **Chongqing University**  
 Chongqing City  
 1930668092@qq.com
@@ -33,14 +26,6 @@ Chongqing City
 **Bio**
 
 把复杂流程做成能复用的工具。
-
-<br />
-
-**Now**
-
-- Building desktop tools that remove repetitive work
-- Turning scripts into reusable automation
-- Keeping release bundles clean and handoff-ready
 
 <br />
 
@@ -65,11 +50,17 @@ I build clean tools, practical automation, and release workflows that are easy t
 
 > Simple systems are easier to trust, easier to hand off, and easier to keep alive.
 
+#### About
+
+- I focus on local-first tools that reduce repetitive work.
+- I like turning scattered scripts into reusable workflows.
+- I care about clean delivery, clear structure, and stable handoff.
+
 #### Now
 
-- Building local-first desktop tools for everyday workflows
-- Turning scattered scripts into reusable automation
-- Keeping release bundles organized and handoff-ready
+- Building desktop tools for everyday workflows
+- Organizing release bundles and delivery materials
+- Keeping project structure clean across repositories
 
 #### Selected work
 
@@ -85,22 +76,6 @@ I build clean tools, practical automation, and release workflows that are easy t
 - Repeatable release packaging
 - Practical backend services
 - Clear repository organization
-
-#### Skill set
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
-</p>
-
-#### Public / private map
-
-- Public work: product tools, analysis tools, backend demos
-- Private work: seller tools, order management, workflow suites
-- Archive: coursework and early experiments
 
 #### Contact
 
@@ -120,14 +95,6 @@ I build clean tools, practical automation, and release workflows that are easy t
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=aolingge&theme=transparent&hide_border=true&stroke=334155&ring=60A5FA&fire=F59E0B&currStreakLabel=E5E7EB" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aolingge&theme=github-dark&hide_border=true" alt="GitHub activity graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aolingge&theme=darkhub&no-frame=true&no-bg=true&margin-w=8" alt="GitHub trophies" />
 </p>
 
 <p align="center">
