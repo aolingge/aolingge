@@ -2,9 +2,16 @@
   <img src="./assets/profile-banner.svg" alt="Aolinge profile banner" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Chongqing%20University-Student-0F172A?style=for-the-badge" alt="Chongqing University" />
+  <img src="https://img.shields.io/badge/City-Chongqing%20City-0F172A?style=for-the-badge" alt="Chongqing City" />
+  <img src="https://img.shields.io/badge/Focus-Desktop%20Tools%20%26%20Automation-0F172A?style=for-the-badge" alt="Focus" />
+</p>
+
 <table>
   <tr>
-    <td width="34%" valign="top">
+    <td width="34%" valign="top" align="center">
+      <img src="https://github.com/aolingge.png?size=320" width="220" alt="Aolinge avatar" />
 
 ### Aolinge
 
@@ -18,11 +25,9 @@ Chongqing City
 
 <br />
 
-**Now**
+**Bio**
 
-- Building desktop tools that remove repetitive work
-- Turning scripts into reusable automation
-- Keeping release bundles clean and handoff-ready
+把复杂流程做成能复用的工具。
 
 <br />
 
@@ -35,13 +40,19 @@ Chongqing City
 
 ### Hi, I'm Aolinge
 
-I build clean tools, practical automation, and release workflows that are easy to reuse.
+I build clean tools, practical automation, and release workflows that are easy to reuse and easy to ship.
 
 <br />
 
 > Simple systems are easier to trust, easier to hand off, and easier to keep alive.
 
-#### Featured work
+#### Now
+
+- Building local-first desktop tools for everyday workflows
+- Turning scattered scripts into reusable automation
+- Keeping release bundles organized and handoff-ready
+
+#### Selected work
 
 - [ResumePilot](https://github.com/aolingge/ResumePilot) - resume optimization and job application toolkit
 - [TrendRadar](https://github.com/aolingge/TrendRadar) - multi-platform hot-topic aggregation and AI analysis toolkit
@@ -56,12 +67,11 @@ I build clean tools, practical automation, and release workflows that are easy t
 - Practical backend services
 - Clear repository organization
 
-#### Private toolkits
+#### Public / private map
 
-- Seller operations tools
-- Order management systems
-- OpenClaw workflow suites
-- Resume and job application tooling
+- Public work: product tools, analysis tools, backend demos
+- Private work: seller tools, order management, workflow suites
+- Archive: coursework and early experiments
 
 #### Contact
 
@@ -73,6 +83,11 @@ I build clean tools, practical automation, and release workflows that are easy t
 </table>
 
 ---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aolingge&show_icons=true&hide_border=true&theme=transparent&title_color=E5E7EB&text_color=CBD5E1&icon_color=60A5FA" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aolingge&layout=compact&hide_border=true&theme=transparent&title_color=E5E7EB&text_color=CBD5E1" alt="Top languages" height="165" />
+</p>
 
 <p align="center">
   <i>Make it clean. Make it reusable. Make it easy to ship.</i>
