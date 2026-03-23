@@ -1,102 +1,66 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" alt="Aolinge profile banner" />
-</p>
+# Hi there, I'm aolingge
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Chongqing%20University-Student-0F172A?style=for-the-badge" alt="Chongqing University" />
-  <img src="https://img.shields.io/badge/Chongqing%20City-Profile-0F172A?style=for-the-badge" alt="Chongqing City" />
-  <img src="https://img.shields.io/badge/Desktop%20Tools-Automation-0F172A?style=for-the-badge" alt="Focus" />
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=520&lines=Computer+Science+Student;Building+Projects+%26+Shipping+Fast;Preparing+for+Germany+Master's+Application" alt="Typing SVG" />
+</div>
 
-<table>
-  <tr>
-    <td width="34%" valign="top" align="center">
-      <img src="https://github.com/aolingge.png?size=320" width="220" alt="Aolinge avatar" />
-
-### Aolinge
-
-`aolingge`
-
-**Chongqing University**  
-Chongqing City  
-1930668092@qq.com
-
-<br />
-
-**Bio**
-
-把复杂流程做成能复用的工具。
-
-<br />
-
-**Stack**
-
-`Python` · `Java` · `Vue` · `TypeScript`
-
-<br />
-
-**Links**
-
-[GitHub](https://github.com/aolingge) · [Email](mailto:1930668092@qq.com)
-
-    </td>
-    <td width="66%" valign="top">
-
-### Hi, I'm Aolinge
-
-I build clean tools, practical automation, and release workflows that are easy to reuse and easy to ship.
-
-<br />
-
-> Simple systems are easier to trust, easier to hand off, and easier to keep alive.
-
-#### About
-
-- I focus on local-first tools that reduce repetitive work.
-- I like turning scattered scripts into reusable workflows.
-- I care about clean delivery, clear structure, and stable handoff.
-
-#### Now
-
-- Building desktop tools for everyday workflows
-- Organizing release bundles and delivery materials
-- Keeping project structure clean across repositories
-
-#### Selected work
-
-- [ResumePilot](https://github.com/aolingge/ResumePilot) - resume optimization and job application toolkit
-- [TrendRadar](https://github.com/aolingge/TrendRadar) - multi-platform hot-topic aggregation and AI analysis toolkit
-- [express-locker-backend](https://github.com/aolingge/express-locker-backend) - express locker and logistics backend service
-- [job-backend](https://github.com/aolingge/job-backend) - career evaluation and job recommendation backend
-- [Summer-Internship-Backend-Repo](https://github.com/aolingge/Summer-Internship-Backend-Repo) - campus social app backend
-
-#### What I care about
-
-- Local-first workflows
-- Repeatable release packaging
-- Practical backend services
-- Clear repository organization
-
-#### Contact
-
-- Email: 1930668092@qq.com
-- GitHub: [@aolingge](https://github.com/aolingge)
-
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="http://49.51.170.200:18040/"><img src="https://img.shields.io/badge/Blog-My%20Tech%20Site-0ea5e9?style=for-the-badge&logo=wordpress" alt="Blog" /></a>
+  <a href="https://m.tb.cn/h.ihcUFy4?tk=zqRT5Z0j2JW"><img src="https://img.shields.io/badge/Xianyu-Shop-f59e0b?style=for-the-badge" alt="Xianyu" /></a>
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aolingge&show_icons=true&hide_border=true&theme=transparent&title_color=E5E7EB&text_color=CBD5E1&icon_color=60A5FA" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aolingge&layout=compact&hide_border=true&theme=transparent&title_color=E5E7EB&text_color=CBD5E1" alt="Top languages" height="165" />
-</p>
+## About Me
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aolingge&theme=transparent&hide_border=true&stroke=334155&ring=60A5FA&fire=F59E0B&currStreakLabel=E5E7EB" alt="GitHub streak" />
-</p>
+- Computer Science student
+- Focus: **Java / Spring Boot / Web Engineering / Project Delivery**
+- Current goal: **Germany master application + APS + German learning**
+- I document practical workflows on my blog, including project retrospectives, study systems, and application prep
 
-<p align="center">
-  <i>Make it clean. Make it reusable. Make it easy to ship.</i>
-</p>
+---
+
+## Tech Stack
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,js,ts,vue,react,nodejs,mysql,redis,docker,linux,git,github,vscode" alt="Tech stack" />
+</div>
+
+---
+
+## Featured Focus
+
+- **Project Practice**: architecture, implementation details, measurable outcomes
+- **Engineering Habits**: README quality, deployment, logging, backup, iteration
+- **Learning System**: weekly planning, Notion-to-Blog pipeline, reproducible methods
+
+---
+
+## GitHub Stats
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aolingge&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aolingge&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aolingge&theme=github-compact&hide_border=true" alt="Activity graph" />
+</div>
+
+---
+
+## Links
+
+- Blog: http://49.51.170.200:18040/
+- GitHub Profile: https://github.com/aolingge
+- Xianyu: https://m.tb.cn/h.ihcUFy4?tk=zqRT5Z0j2JW
+
+---
+
+## Contact
+
+- Open an issue or discussion in any repo
+- Or reach me via profile links
+
+> Keep building. Keep shipping. Keep improving.
