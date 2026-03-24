@@ -52,7 +52,7 @@
 
 ## Links
 
-- Blog: http://49.51.170.200:18040/
+- Blog: [http://49.51.170.200:18040/](https://blog.aolingge.dev)
 - GitHub Profile: https://github.com/aolingge
 - Xianyu: https://m.tb.cn/h.ihcUFy4?tk=zqRT5Z0j2JW
 
