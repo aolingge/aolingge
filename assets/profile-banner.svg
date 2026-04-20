@@ -1,53 +1,73 @@
-<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aolinge GitHub profile banner</title>
+  <desc id="desc">A refined developer workbench banner for Aolinge, focused on agent safety, automation, backend services, and release workflows.</desc>
   <defs>
-    <linearGradient id="sky" x1="700" y1="0" x2="700" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1020"/>
-      <stop offset="1" stop-color="#111827"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.58" stop-color="#EEF2F7"/>
+      <stop offset="1" stop-color="#E7ECEF"/>
     </linearGradient>
-    <linearGradient id="windowGlow" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#93C5FD" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#34D399" stop-opacity="0.55"/>
+    <linearGradient id="ink" x1="88" y1="44" x2="562" y2="324" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#334155"/>
     </linearGradient>
-    <linearGradient id="deskLight" x1="520" y1="170" x2="1120" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8FAFC" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.05"/>
+    <linearGradient id="panel" x1="766" y1="76" x2="1222" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
     </linearGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="18"/>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#CBD5E1" stroke-width="1" opacity="0.34"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.18"/>
     </filter>
   </defs>
 
-  <rect width="1400" height="420" rx="28" fill="url(#sky)"/>
+  <rect width="1400" height="420" rx="30" fill="url(#paper)"/>
+  <rect x="0" y="0" width="1400" height="420" rx="30" fill="url(#grid)" opacity="0.45"/>
 
-  <circle cx="1160" cy="78" r="120" fill="#1D4ED8" fill-opacity="0.12" filter="url(#soft)"/>
-  <circle cx="1040" cy="308" r="180" fill="#10B981" fill-opacity="0.12" filter="url(#soft)"/>
-  <circle cx="320" cy="72" r="100" fill="#F59E0B" fill-opacity="0.08" filter="url(#soft)"/>
+  <path d="M88 312C252 250 410 244 582 294" stroke="#0F766E" stroke-width="5" stroke-linecap="round" opacity="0.78"/>
+  <path d="M106 342C300 292 438 304 566 346" stroke="#B91C1C" stroke-width="3" stroke-linecap="round" opacity="0.58"/>
+  <path d="M84 374H602" stroke="#111827" stroke-width="2" stroke-linecap="round" opacity="0.18"/>
 
-  <rect x="612" y="54" width="392" height="220" rx="12" fill="#0F172A" stroke="#334155"/>
-  <rect x="638" y="82" width="156" height="164" rx="6" fill="#111827" stroke="#1F2937"/>
-  <rect x="814" y="82" width="156" height="164" rx="6" fill="#111827" stroke="#1F2937"/>
-  <rect x="662" y="104" width="108" height="104" rx="4" fill="#94A3B8" fill-opacity="0.18"/>
-  <rect x="838" y="104" width="108" height="104" rx="4" fill="#94A3B8" fill-opacity="0.18"/>
-  <path d="M638 164H790" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
-  <path d="M814 156H970" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="755" cy="132" r="16" fill="url(#windowGlow)" fill-opacity="0.7"/>
-  <circle cx="928" cy="128" r="20" fill="#F59E0B" fill-opacity="0.5"/>
+  <g filter="url(#shadow)">
+    <rect x="724" y="66" width="552" height="278" rx="22" fill="url(#panel)"/>
+    <rect x="756" y="100" width="214" height="172" rx="14" fill="#111827" stroke="#334155"/>
+    <rect x="998" y="100" width="246" height="172" rx="14" fill="#111827" stroke="#334155"/>
 
-  <rect x="94" y="250" width="1158" height="92" rx="18" fill="url(#deskLight)"/>
-  <rect x="228" y="302" width="940" height="8" rx="4" fill="#1F2937"/>
-  <rect x="310" y="220" width="168" height="92" rx="16" fill="#111827" stroke="#334155"/>
-  <rect x="346" y="180" width="106" height="68" rx="10" fill="#0F172A" stroke="#475569"/>
-  <rect x="368" y="192" width="62" height="38" rx="6" fill="url(#windowGlow)" fill-opacity="0.85"/>
-  <path d="M388 248L402 302" stroke="#334155" stroke-width="10" stroke-linecap="round"/>
-  <path d="M320 272H465" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
-  <circle cx="535" cy="272" r="32" fill="#F8FAFC" fill-opacity="0.08"/>
-  <path d="M520 272L552 272" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
-  <path d="M536 256L536 288" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="782" cy="126" r="5" fill="#B91C1C"/>
+    <circle cx="802" cy="126" r="5" fill="#EAB308"/>
+    <circle cx="822" cy="126" r="5" fill="#0F766E"/>
 
-  <path d="M118 126C252 88 352 88 472 122" stroke="#334155" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 10"/>
-  <path d="M110 156C260 124 384 120 496 148" stroke="#475569" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 9"/>
+    <path d="M786 160H898" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+    <path d="M786 190H930" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M786 218H882" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M786 244H926" stroke="#0F766E" stroke-width="7" stroke-linecap="round"/>
 
-  <text x="88" y="92" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Aolinge</text>
-  <text x="88" y="132" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">Desktop tools · automation · release packaging</text>
-  <text x="88" y="170" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">Chongqing University · Chongqing City · 1930668092@qq.com</text>
+    <path d="M1030 156H1198" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1030 188H1150" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1030 216H1208" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1030 244H1138" stroke="#B91C1C" stroke-width="7" stroke-linecap="round"/>
+
+    <rect x="832" y="304" width="372" height="18" rx="9" fill="#334155"/>
+    <rect x="914" y="330" width="210" height="12" rx="6" fill="#475569"/>
+  </g>
+
+  <g>
+    <rect x="88" y="76" width="118" height="34" rx="17" fill="#111827"/>
+    <text x="112" y="99" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.4">AOLINGE</text>
+
+    <text x="88" y="168" fill="url(#ink)" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="700">Build useful tools.</text>
+    <text x="88" y="226" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="600">Keep workflows calm, safe, and shippable.</text>
+    <text x="88" y="268" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="21">Agent safety · backend services · release automation</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    <rect x="88" y="324" width="156" height="38" rx="19" fill="#0F766E"/>
+    <text x="114" y="349" fill="#FFFFFF">TypeScript CLI</text>
+    <rect x="260" y="324" width="142" height="38" rx="19" fill="#111827"/>
+    <text x="287" y="349" fill="#FFFFFF">Java Backend</text>
+    <rect x="418" y="324" width="162" height="38" rx="19" fill="#B91C1C"/>
+    <text x="444" y="349" fill="#FFFFFF">Release Notes</text>
+  </g>
 </svg>
