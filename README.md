@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" alt="Aolinge profile banner" />
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Chongqing%20University-Student-0F172A?style=for-the-badge" alt="Chongqing University" />
