@@ -1,73 +1,66 @@
-<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Aolinge GitHub profile banner</title>
-  <desc id="desc">A refined developer workbench banner for Aolinge, focused on agent safety, automation, backend services, and release workflows.</desc>
+<svg width="1400" height="320" viewBox="0 0 1400 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aolinge GitHub profile cover</title>
+  <desc id="desc">A restrained dark developer cover with a command line, repository nodes, and delivery workflow lines.</desc>
   <defs>
-    <linearGradient id="paper" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8FAFC"/>
-      <stop offset="0.58" stop-color="#EEF2F7"/>
-      <stop offset="1" stop-color="#E7ECEF"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090A0C"/>
+      <stop offset="0.52" stop-color="#111111"/>
+      <stop offset="1" stop-color="#16130F"/>
     </linearGradient>
-    <linearGradient id="ink" x1="88" y1="44" x2="562" y2="324" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#111827"/>
-      <stop offset="1" stop-color="#334155"/>
+    <linearGradient id="line" x1="170" y1="266" x2="1220" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2EFE6" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#D94A38"/>
+      <stop offset="0.58" stop-color="#21A179"/>
+      <stop offset="1" stop-color="#F2EFE6" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="panel" x1="766" y1="76" x2="1222" y2="332" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#1E293B"/>
+    <linearGradient id="panel" x1="180" y1="88" x2="1220" y2="228" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151515"/>
+      <stop offset="1" stop-color="#1D1A16"/>
     </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#CBD5E1" stroke-width="1" opacity="0.34"/>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#F2EFE6" opacity="0.14"/>
     </pattern>
-    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.18"/>
+    <filter id="softShadow" x="-12%" y="-30%" width="124%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.34"/>
     </filter>
   </defs>
 
-  <rect width="1400" height="420" rx="30" fill="url(#paper)"/>
-  <rect x="0" y="0" width="1400" height="420" rx="30" fill="url(#grid)" opacity="0.45"/>
+  <rect width="1400" height="320" rx="26" fill="url(#bg)"/>
+  <rect width="1400" height="320" rx="26" fill="url(#dots)" opacity="0.72"/>
+  <path d="M124 256C314 175 466 187 648 122C816 62 1008 57 1276 136" stroke="url(#line)" stroke-width="2.5"/>
+  <path d="M124 254C314 173 466 185 648 120C816 60 1008 55 1276 134" stroke="#F2EFE6" stroke-opacity="0.08" stroke-width="18" stroke-linecap="round"/>
 
-  <path d="M88 312C252 250 410 244 582 294" stroke="#0F766E" stroke-width="5" stroke-linecap="round" opacity="0.78"/>
-  <path d="M106 342C300 292 438 304 566 346" stroke="#B91C1C" stroke-width="3" stroke-linecap="round" opacity="0.58"/>
-  <path d="M84 374H602" stroke="#111827" stroke-width="2" stroke-linecap="round" opacity="0.18"/>
+  <g filter="url(#softShadow)">
+    <rect x="178" y="76" width="1044" height="168" rx="22" fill="url(#panel)" stroke="#2B2925"/>
+    <rect x="210" y="108" width="438" height="104" rx="14" fill="#0C0D0E" stroke="#2B2925"/>
+    <rect x="686" y="108" width="184" height="104" rx="14" fill="#101111" stroke="#2B2925"/>
+    <rect x="902" y="108" width="288" height="104" rx="14" fill="#101111" stroke="#2B2925"/>
+  </g>
 
-  <g filter="url(#shadow)">
-    <rect x="724" y="66" width="552" height="278" rx="22" fill="url(#panel)"/>
-    <rect x="756" y="100" width="214" height="172" rx="14" fill="#111827" stroke="#334155"/>
-    <rect x="998" y="100" width="246" height="172" rx="14" fill="#111827" stroke="#334155"/>
+  <g font-family="Cascadia Mono, Consolas, monospace">
+    <text x="238" y="145" fill="#F2EFE6" font-size="20" font-weight="700">$ aolinge</text>
+    <text x="238" y="176" fill="#8F8A7E" font-size="18">ship small tools with calm systems</text>
+    <rect x="238" y="193" width="246" height="3" rx="1.5" fill="#21A179"/>
+    <rect x="494" y="193" width="78" height="3" rx="1.5" fill="#D94A38"/>
+  </g>
 
-    <circle cx="782" cy="126" r="5" fill="#B91C1C"/>
-    <circle cx="802" cy="126" r="5" fill="#EAB308"/>
-    <circle cx="822" cy="126" r="5" fill="#0F766E"/>
-
-    <path d="M786 160H898" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
-    <path d="M786 190H930" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
-    <path d="M786 218H882" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
-    <path d="M786 244H926" stroke="#0F766E" stroke-width="7" stroke-linecap="round"/>
-
-    <path d="M1030 156H1198" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
-    <path d="M1030 188H1150" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
-    <path d="M1030 216H1208" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
-    <path d="M1030 244H1138" stroke="#B91C1C" stroke-width="7" stroke-linecap="round"/>
-
-    <rect x="832" y="304" width="372" height="18" rx="9" fill="#334155"/>
-    <rect x="914" y="330" width="210" height="12" rx="6" fill="#475569"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.3">
+    <text x="722" y="143" fill="#8F8A7E">FOCUS</text>
+    <text x="722" y="174" fill="#F2EFE6" font-size="18" letter-spacing="0">Agent safety</text>
+    <text x="930" y="143" fill="#8F8A7E">STACK</text>
+    <text x="930" y="174" fill="#F2EFE6" font-size="18" letter-spacing="0">TypeScript · Java · Python</text>
   </g>
 
   <g>
-    <rect x="88" y="76" width="118" height="34" rx="17" fill="#111827"/>
-    <text x="112" y="99" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.4">AOLINGE</text>
-
-    <text x="88" y="168" fill="url(#ink)" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="700">Build useful tools.</text>
-    <text x="88" y="226" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="600">Keep workflows calm, safe, and shippable.</text>
-    <text x="88" y="268" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="21">Agent safety · backend services · release automation</text>
+    <circle cx="286" cy="256" r="6" fill="#D94A38"/>
+    <circle cx="538" cy="168" r="6" fill="#21A179"/>
+    <circle cx="790" cy="96" r="6" fill="#F2EFE6"/>
+    <circle cx="1118" cy="94" r="6" fill="#D94A38"/>
+    <path d="M286 256L538 168L790 96L1118 94" stroke="#F2EFE6" stroke-width="1.5" stroke-opacity="0.28" stroke-dasharray="4 10"/>
   </g>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
-    <rect x="88" y="324" width="156" height="38" rx="19" fill="#0F766E"/>
-    <text x="114" y="349" fill="#FFFFFF">TypeScript CLI</text>
-    <rect x="260" y="324" width="142" height="38" rx="19" fill="#111827"/>
-    <text x="287" y="349" fill="#FFFFFF">Java Backend</text>
-    <rect x="418" y="324" width="162" height="38" rx="19" fill="#B91C1C"/>
-    <text x="444" y="349" fill="#FFFFFF">Release Notes</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="700">
+    <text x="178" y="52" fill="#F2EFE6" font-size="16" letter-spacing="2.8">AOLINGE</text>
+    <text x="1124" y="272" fill="#8F8A7E" font-size="13" letter-spacing="1.8">CLEAN · REUSABLE · SHIPPABLE</text>
   </g>
 </svg>

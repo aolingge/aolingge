@@ -3,21 +3,23 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-111827?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
-  <a href="https://blog.aolingge.dev"><img src="https://img.shields.io/badge/Blog-aolingge.dev-0f766e?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" /></a>
-  <a href="mailto:1930668092@qq.com"><img src="https://img.shields.io/badge/Email-1930668092%40qq.com-b91c1c?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-151515?style=flat-square&logo=github" alt="GitHub profile" /></a>
+  <a href="https://blog.aolingge.dev"><img src="https://img.shields.io/badge/Blog-aolingge.dev-21A179?style=flat-square&logo=rss&logoColor=white" alt="Blog" /></a>
+  <a href="mailto:1930668092@qq.com"><img src="https://img.shields.io/badge/Email-1930668092%40qq.com-D94A38?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
   <b>Computer Science student at Chongqing University</b><br />
-  Building small, dependable tools for agent-era development, local automation, and repeatable releases.
+  I build small, dependable tools for agent-era development, local automation, and repeatable releases.
 </p>
 
 ---
 
 ## Hello, I'm Aolinge
 
-I like turning messy workflows into tools that are easy to run again: clear CLIs, practical backend services, release checklists, and documentation that helps the next person ship with less friction.
+I turn messy workflows into tools that are easy to run again: clear CLIs,
+practical backend services, release checklists, and documentation that helps
+the next person ship with less friction.
 
 Right now I am focused on three things:
 
@@ -25,7 +27,7 @@ Right now I am focused on three things:
 | --- | --- |
 | Agent safety | Scanners and guardrails for AI coding agents, MCP configs, and local automation repositories. |
 | Backend practice | Java / Spring Boot services with clean project structure and delivery notes. |
-| Personal systems | Local-first workflows for study, research, releases, backups, and writing. |
+| Personal systems | Local-first workflows for study, research, releases, backup, and writing. |
 
 ## Featured Work
 
@@ -33,7 +35,7 @@ Right now I am focused on three things:
   <tr>
     <td width="50%" valign="top">
       <h3>agent-secret-guard</h3>
-      <p>A 5-minute safety check for agent-era repositories. It catches MCP tokens in args, broad filesystem access, dangerous automation notes, browser profile exposure, and risky GitHub Actions permissions.</p>
+      <p>A 5-minute safety check for agent-era repositories. It catches MCP tokens in args, broad filesystem access, browser profile exposure, risky automation notes, and over-permissive GitHub Actions workflows.</p>
       <p>
         <a href="https://github.com/aolingge/agent-secret-guard"><b>Repository</b></a>
         ·
@@ -47,7 +49,7 @@ Right now I am focused on three things:
     </td>
     <td width="50%" valign="top">
       <h3>express-locker-backend</h3>
-      <p>A logistics backend service for express locker scenarios, built as a practical Java backend project with service structure, API thinking, and database-oriented workflow.</p>
+      <p>A Java / Spring Boot backend for express locker logistics scenarios, focused on service structure, API design, and database-oriented delivery practice.</p>
       <p>
         <a href="https://github.com/aolingge/express-locker-backend"><b>Repository</b></a>
       </p>
@@ -61,7 +63,7 @@ Right now I am focused on three things:
   <tr>
     <td width="50%" valign="top">
       <h3>TrendRadar</h3>
-      <p>A hot-topic aggregation and AI analysis toolkit for tracking trends across platforms and turning scattered signals into readable summaries.</p>
+      <p>A Python toolkit for tracking hot topics across platforms, aggregating trend signals, and turning noisy feeds into readable AI-assisted summaries.</p>
       <p>
         <a href="https://github.com/aolingge/TrendRadar"><b>Repository</b></a>
       </p>
@@ -73,7 +75,7 @@ Right now I am focused on three things:
     </td>
     <td width="50%" valign="top">
       <h3>Project factory</h3>
-      <p>A local workflow for creating, packaging, documenting, and iterating public GitHub projects without mixing real repositories with drafts, release kits, or private notes.</p>
+      <p>A local workflow for creating, packaging, documenting, and iterating public GitHub projects while keeping drafts, release kits, and private notes out of real repositories.</p>
       <p>
         <a href="https://github.com/aolingge"><b>Project index</b></a>
       </p>
@@ -89,14 +91,14 @@ Right now I am focused on three things:
 ## Toolbox
 
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-b07219?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Vue-42b883?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-b07219?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Vue-42b883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
 </p>
 
 ## How I Work
@@ -131,10 +133,6 @@ Right now I am focused on three things:
     />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aolingge&layout=compact&hide_border=true&theme=default" alt="Aolinge top languages" height="165" />
   </picture>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aolingge&theme=flat&no-frame=true&no-bg=true&margin-w=10&column=6" alt="Aolinge GitHub trophies" />
 </p>
 
 ---
