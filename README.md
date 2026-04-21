@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-111827?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
   <a href="https://blog.aolingge.dev"><img src="https://img.shields.io/badge/Blog-aolingge.dev-16A34A?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" /></a>
+  <a href="https://www.buymeacoffee.com/aolingge"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" /></a>
   <a href="mailto:1930668092@qq.com"><img src="https://img.shields.io/badge/Email-1930668092%40qq.com-EA580C?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -107,6 +108,11 @@ Right now I am building around three lanes:
 - Treat docs as part of the product, not a cleanup task.
 - Keep automation careful around credentials, browser profiles, and agent permissions.
 - Package projects so the next release is easier than the first one.
+
+## Support
+
+If one of my tools saves you time, you can support future maintenance here:
+[Buy Me a Coffee](https://www.buymeacoffee.com/aolingge).
 
 ## GitHub Snapshot
 
