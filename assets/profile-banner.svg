@@ -1,66 +1,103 @@
-<svg width="1400" height="320" viewBox="0 0 1400 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Aolinge GitHub profile cover</title>
-  <desc id="desc">A restrained dark developer cover with a command line, repository nodes, and delivery workflow lines.</desc>
+<svg width="1400" height="500" viewBox="0 0 1400 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aolinge GitHub profile banner</title>
+  <desc id="desc">A polished animated developer cover for Aolinge, focused on agent tooling, local automation, and clean shipping workflows.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#090A0C"/>
-      <stop offset="0.52" stop-color="#111111"/>
-      <stop offset="1" stop-color="#16130F"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07110F"/>
+      <stop offset="0.38" stop-color="#101827"/>
+      <stop offset="0.72" stop-color="#172019"/>
+      <stop offset="1" stop-color="#2A1614"/>
     </linearGradient>
-    <linearGradient id="line" x1="170" y1="266" x2="1220" y2="64" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F2EFE6" stop-opacity="0"/>
-      <stop offset="0.18" stop-color="#D94A38"/>
-      <stop offset="0.58" stop-color="#21A179"/>
-      <stop offset="1" stop-color="#F2EFE6" stop-opacity="0"/>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1090 108) rotate(132) scale(520 250)">
+      <stop stop-color="#69F0AE" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#69F0AE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(245 405) rotate(-18) scale(470 230)">
+      <stop stop-color="#FF6B4A" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#FF6B4A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="202" y1="390" x2="1234" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B4A"/>
+      <stop offset="0.45" stop-color="#69F0AE"/>
+      <stop offset="1" stop-color="#B7C7FF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="180" y1="88" x2="1220" y2="228" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#151515"/>
-      <stop offset="1" stop-color="#1D1A16"/>
+    <linearGradient id="word" x1="124" y1="126" x2="740" y2="322" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F0E8"/>
+      <stop offset="0.58" stop-color="#E3FFE7"/>
+      <stop offset="1" stop-color="#B7C7FF"/>
     </linearGradient>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="#F2EFE6" opacity="0.14"/>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" stroke="#F6F0E8" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.4" fill="#F6F0E8" fill-opacity="0.18"/>
     </pattern>
-    <filter id="softShadow" x="-12%" y="-30%" width="124%" height="160%">
-      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.34"/>
+    <filter id="blur12" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12"/>
     </filter>
+    <filter id="shadow" x="-14%" y="-24%" width="128%" height="148%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+    <style>
+      .mono { font-family: "Cascadia Mono", "SFMono-Regular", Consolas, monospace; }
+      .sans { font-family: "Segoe UI", "Inter", Arial, sans-serif; }
+      .float-a { animation: floatA 8s ease-in-out infinite; }
+      .float-b { animation: floatB 9s ease-in-out infinite; }
+      .draw { stroke-dasharray: 740; stroke-dashoffset: 740; animation: draw 5.6s ease-in-out infinite; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: center; }
+      .blink { animation: blink 1.1s steps(2, end) infinite; }
+      @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-13px); } }
+      @keyframes floatB { 0%,100% { transform: translateY(0); } 50% { transform: translateY(11px); } }
+      @keyframes draw { 0% { stroke-dashoffset: 740; opacity: .1; } 28%,70% { stroke-dashoffset: 0; opacity: .95; } 100% { stroke-dashoffset: -740; opacity: .15; } }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .8; } 50% { transform: scale(1.2); opacity: 1; } }
+      @keyframes blink { 0%,45% { opacity: 1; } 46%,100% { opacity: 0; } }
+    </style>
   </defs>
 
-  <rect width="1400" height="320" rx="26" fill="url(#bg)"/>
-  <rect width="1400" height="320" rx="26" fill="url(#dots)" opacity="0.72"/>
-  <path d="M124 256C314 175 466 187 648 122C816 62 1008 57 1276 136" stroke="url(#line)" stroke-width="2.5"/>
-  <path d="M124 254C314 173 466 185 648 120C816 60 1008 55 1276 134" stroke="#F2EFE6" stroke-opacity="0.08" stroke-width="18" stroke-linecap="round"/>
+  <rect width="1400" height="500" rx="36" fill="url(#bg)"/>
+  <rect width="1400" height="500" rx="36" fill="url(#grid)"/>
+  <rect width="1400" height="500" rx="36" fill="url(#glowA)"/>
+  <rect width="1400" height="500" rx="36" fill="url(#glowB)"/>
 
-  <g filter="url(#softShadow)">
-    <rect x="178" y="76" width="1044" height="168" rx="22" fill="url(#panel)" stroke="#2B2925"/>
-    <rect x="210" y="108" width="438" height="104" rx="14" fill="#0C0D0E" stroke="#2B2925"/>
-    <rect x="686" y="108" width="184" height="104" rx="14" fill="#101111" stroke="#2B2925"/>
-    <rect x="902" y="108" width="288" height="104" rx="14" fill="#101111" stroke="#2B2925"/>
+  <g opacity="0.48" filter="url(#blur12)">
+    <path class="float-a" d="M818 90C1028 32 1181 86 1288 188" stroke="#69F0AE" stroke-width="34" stroke-linecap="round"/>
+    <path class="float-b" d="M95 374C294 288 504 323 645 212" stroke="#FF6B4A" stroke-width="28" stroke-linecap="round"/>
   </g>
 
-  <g font-family="Cascadia Mono, Consolas, monospace">
-    <text x="238" y="145" fill="#F2EFE6" font-size="20" font-weight="700">$ aolinge</text>
-    <text x="238" y="176" fill="#8F8A7E" font-size="18">ship small tools with calm systems</text>
-    <rect x="238" y="193" width="246" height="3" rx="1.5" fill="#21A179"/>
-    <rect x="494" y="193" width="78" height="3" rx="1.5" fill="#D94A38"/>
+  <path class="draw" d="M194 379C347 318 450 356 588 268C744 168 875 174 1036 126C1140 95 1224 118 1292 164" stroke="url(#stroke)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M194 379C347 318 450 356 588 268C744 168 875 174 1036 126C1140 95 1224 118 1292 164" stroke="#F6F0E8" stroke-opacity="0.12" stroke-width="18" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="812" y="124" width="418" height="232" rx="26" fill="#09100F" fill-opacity="0.78" stroke="#F6F0E8" stroke-opacity="0.13"/>
+    <rect x="846" y="162" width="202" height="46" rx="13" fill="#F6F0E8" fill-opacity="0.08" stroke="#F6F0E8" stroke-opacity="0.12"/>
+    <rect x="846" y="232" width="328" height="46" rx="13" fill="#F6F0E8" fill-opacity="0.07" stroke="#F6F0E8" stroke-opacity="0.1"/>
+    <rect x="846" y="300" width="256" height="8" rx="4" fill="#69F0AE"/>
+    <rect x="1116" y="300" width="58" height="8" rx="4" fill="#FF6B4A"/>
   </g>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.3">
-    <text x="722" y="143" fill="#8F8A7E">FOCUS</text>
-    <text x="722" y="174" fill="#F2EFE6" font-size="18" letter-spacing="0">Agent safety</text>
-    <text x="930" y="143" fill="#8F8A7E">STACK</text>
-    <text x="930" y="174" fill="#F2EFE6" font-size="18" letter-spacing="0">TypeScript · Java · Python</text>
+  <g class="sans">
+    <text x="116" y="94" fill="#F6F0E8" fill-opacity="0.75" font-size="18" font-weight="800" letter-spacing="4">AOLINGE</text>
+    <text x="116" y="197" fill="url(#word)" font-size="78" font-weight="900" letter-spacing="0">Build agents</text>
+    <text x="116" y="286" fill="url(#word)" font-size="78" font-weight="900" letter-spacing="0">that ship clean.</text>
+    <text x="120" y="338" fill="#D8E7DE" font-size="24" font-weight="650">AI agent tooling · local automation · backend systems</text>
+    <text x="120" y="383" fill="#9BA9A3" font-size="18" font-weight="600">Computer Science @ Chongqing University</text>
+  </g>
+
+  <g class="mono">
+    <text x="874" y="193" fill="#EAF6EE" font-size="17" font-weight="700">$ aolinge run ship-check</text>
+    <rect class="blink" x="1037" y="177" width="10" height="21" rx="2" fill="#69F0AE"/>
+    <text x="875" y="263" fill="#B7C7FF" font-size="18" font-weight="700">CLI · MCP · OpenCLI · Skills</text>
+    <text x="875" y="338" fill="#F6F0E8" fill-opacity="0.68" font-size="15">small tools / calm systems / repeatable releases</text>
   </g>
 
   <g>
-    <circle cx="286" cy="256" r="6" fill="#D94A38"/>
-    <circle cx="538" cy="168" r="6" fill="#21A179"/>
-    <circle cx="790" cy="96" r="6" fill="#F2EFE6"/>
-    <circle cx="1118" cy="94" r="6" fill="#D94A38"/>
-    <path d="M286 256L538 168L790 96L1118 94" stroke="#F2EFE6" stroke-width="1.5" stroke-opacity="0.28" stroke-dasharray="4 10"/>
+    <circle class="pulse" cx="846" cy="390" r="7" fill="#69F0AE"/>
+    <circle class="pulse" cx="995" cy="105" r="6" fill="#B7C7FF" style="animation-delay:.7s"/>
+    <circle class="pulse" cx="1212" cy="238" r="7" fill="#FF6B4A" style="animation-delay:1.4s"/>
+    <path d="M846 390L995 105L1212 238" stroke="#F6F0E8" stroke-opacity="0.22" stroke-width="1.4" stroke-dasharray="6 11"/>
   </g>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-weight="700">
-    <text x="178" y="52" fill="#F2EFE6" font-size="16" letter-spacing="2.8">AOLINGE</text>
-    <text x="1124" y="272" fill="#8F8A7E" font-size="13" letter-spacing="1.8">CLEAN · REUSABLE · SHIPPABLE</text>
+  <g class="sans" font-size="13" font-weight="800" letter-spacing="1.6">
+    <text x="120" y="440" fill="#F6F0E8" fill-opacity="0.6">CLEAN COMMANDS</text>
+    <text x="340" y="440" fill="#F6F0E8" fill-opacity="0.6">SAFE AUTOMATION</text>
+    <text x="590" y="440" fill="#F6F0E8" fill-opacity="0.6">RELEASE READY</text>
   </g>
 </svg>
