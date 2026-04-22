@@ -3,65 +3,55 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-111827?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
-  <a href="https://blog.aolingge.dev"><img src="https://img.shields.io/badge/Blog-aolingge.dev-16A34A?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" /></a>
-  <a href="https://www.buymeacoffee.com/aolingge"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" /></a>
-  <a href="mailto:1930668092@qq.com"><img src="https://img.shields.io/badge/Email-1930668092%40qq.com-EA580C?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-151515?style=flat-square&logo=github" alt="GitHub profile" /></a>
+  <a href="https://blog.aolingge.dev"><img src="https://img.shields.io/badge/Blog-aolingge.dev-21A179?style=flat-square&logo=rss&logoColor=white" alt="Blog" /></a>
+  <a href="mailto:1930668092@qq.com"><img src="https://img.shields.io/badge/Email-1930668092%40qq.com-D94A38?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <b>I build small tools that make messy AI-agent workflows feel like one clean command.</b><br />
-  Computer Science student at Chongqing University · TypeScript / Java / Python · Agent tooling, automation, and backend systems.
+  <b>Computer Science student at Chongqing University</b><br />
+  I build small, dependable tools for agent-era development, local automation, and repeatable releases.
 </p>
 
 ---
 
-## Hey, I'm Aolinge
+## Hello, I'm Aolinge
 
-I like turning fragile, manual workflows into tools that are safe to run again:
-clear CLIs, practical backend services, readable docs, and release flows that do
-not depend on memory or luck.
+I turn messy workflows into tools that are easy to run again: clear CLIs,
+practical backend services, release checklists, and documentation that helps
+the next person ship with less friction.
 
-Right now I am building around three lanes:
+Right now I am focused on three things:
 
-| Lane | What I care about |
+| Direction | What I am building |
 | --- | --- |
-| Agent tooling | Safer AI coding setups: MCP hygiene, secret checks, OpenCLI workflows, and local automation guardrails. |
-| Backend systems | Java / Spring Boot services with clean structure, clear APIs, and delivery notes that survive handoff. |
-| Personal OS | Local-first workflows for study, research, publishing, backups, and repeatable releases. |
+| Agent safety | Scanners and guardrails for AI coding agents, MCP configs, and local automation repositories. |
+| Backend practice | Java / Spring Boot services with clean project structure and delivery notes. |
+| Personal systems | Local-first workflows for study, research, releases, backup, and writing. |
 
-## Selected Work
+## Featured Work
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>agent-secret-guard</h3>
-      <p>A fast safety scanner for agent-era repositories. It looks for MCP token leaks, broad filesystem access, browser profile exposure, risky automation notes, and loose GitHub Actions permissions.</p>
+      <p>A 5-minute safety check for agent-era repositories. It catches MCP tokens in args, broad filesystem access, browser profile exposure, risky automation notes, and over-permissive GitHub Actions workflows.</p>
       <p>
         <a href="https://github.com/aolingge/agent-secret-guard"><b>Repository</b></a>
         ·
+        <a href="https://aolingge.dev/agent-secret-guard/"><b>Landing page</b></a>
+        ·
         <a href="https://www.npmjs.com/package/agent-secret-guard"><b>npm</b></a>
+        ·
+        <a href="https://github.com/aolingge/agent-secret-guard-action"><b>GitHub Action</b></a>
       </p>
+      <p><code>npx agent-secret-guard scan . --fail-on high</code></p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/CLI-111827?style=flat-square&logo=gnometerminal&logoColor=white" alt="CLI" />
         <img src="https://img.shields.io/badge/Security-b91c1c?style=flat-square&logo=githubactions&logoColor=white" alt="Security" />
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3>TrendRadar</h3>
-      <p>A Python toolkit for tracking hot topics across platforms, collecting trend signals, and turning noisy feeds into readable AI-assisted summaries.</p>
-      <p>
-        <a href="https://github.com/aolingge/TrendRadar"><b>Repository</b></a>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Automation-4338ca?style=flat-square&logo=zapier&logoColor=white" alt="Automation" />
-        <img src="https://img.shields.io/badge/AI%20Summary-0f766e?style=flat-square&logo=openai&logoColor=white" alt="AI summary" />
-      </p>
-    </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>express-locker-backend</h3>
       <p>A Java / Spring Boot backend for express locker logistics scenarios, focused on service structure, API design, and database-oriented delivery practice.</p>
@@ -74,11 +64,25 @@ Right now I am building around three lanes:
         <img src="https://img.shields.io/badge/Backend-0f766e?style=flat-square&logo=databricks&logoColor=white" alt="Backend" />
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3>Local release workflow</h3>
-      <p>A personal project factory for turning rough experiments into public repositories: docs, release kits, safety checks, and clean handoff notes.</p>
+      <h3>TrendRadar</h3>
+      <p>A Python toolkit for tracking hot topics across platforms, aggregating trend signals, and turning noisy feeds into readable AI-assisted summaries.</p>
       <p>
-        <a href="https://github.com/aolingge?tab=repositories"><b>Repository index</b></a>
+        <a href="https://github.com/aolingge/TrendRadar"><b>Repository</b></a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Automation-4338ca?style=flat-square&logo=zapier&logoColor=white" alt="Automation" />
+        <img src="https://img.shields.io/badge/AI%20Analysis-0f766e?style=flat-square&logo=openai&logoColor=white" alt="AI analysis" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Project factory</h3>
+      <p>A local workflow for creating, packaging, documenting, and iterating public GitHub projects while keeping drafts, release kits, and private notes out of real repositories.</p>
+      <p>
+        <a href="https://github.com/aolingge"><b>Project index</b></a>
       </p>
       <p>
         <img src="https://img.shields.io/badge/Release%20Workflow-111827?style=flat-square&logo=github&logoColor=white" alt="Release workflow" />
@@ -102,17 +106,12 @@ Right now I am building around three lanes:
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
 </p>
 
-## How I Build
+## How I Work
 
-- Make the first run simple: one command, clear defaults, no mystery setup.
-- Treat docs as part of the product, not a cleanup task.
-- Keep automation careful around credentials, browser profiles, and agent permissions.
-- Package projects so the next release is easier than the first one.
-
-## Support
-
-If one of my tools saves you time, you can support future maintenance here:
-[Buy Me a Coffee](https://www.buymeacoffee.com/aolingge).
+- Make the first run boring: short commands, clear defaults, and fewer hidden steps.
+- Write docs as part of the product, not as a cleanup chore at the end.
+- Keep local workflows safe around credentials, browser profiles, and agent permissions.
+- Package releases so future maintenance is easier than the first launch.
 
 ## GitHub Snapshot
 
@@ -144,6 +143,6 @@ If one of my tools saves you time, you can support future maintenance here:
 ---
 
 <p align="center">
-  <b>Small tools. Safe automation. Clean releases.</b><br />
+  <b>Make it clean. Make it reusable. Make it easy to ship.</b><br />
   <sub>Chongqing City · Chongqing University · open-source notes, tools, and experiments</sub>
 </p>
