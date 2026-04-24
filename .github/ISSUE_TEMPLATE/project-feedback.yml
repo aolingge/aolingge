@@ -1,0 +1,44 @@
+name: Project feedback
+description: Suggest a README, profile, or public project-index improvement.
+title: "[Profile] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve this public profile repository.
+
+        Please keep the request focused on public content, links, discoverability,
+        or contribution flow.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should be improved?
+      description: Describe the gap, confusion, or missing public information.
+      placeholder: The README featured work section should link to...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Explain the concrete improvement you want to see.
+      placeholder: Add a direct release link under the featured project card.
+    validations:
+      required: true
+  - type: input
+    id: affected-area
+    attributes:
+      label: Affected area
+      description: Which part of the repo or profile is involved?
+      placeholder: README featured work, banner asset, contribution docs...
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Quick checks
+      options:
+        - label: This request only involves public information.
+          required: true
+        - label: I did not include secrets, private links, or local-only paths.
+          required: true
