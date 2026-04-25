@@ -13,6 +13,10 @@
   I build small, dependable tools for agent-era development, local automation, and repeatable releases.
 </p>
 
+<p align="center">
+  Languages: English | <a href="README.zh-CN.md">简体中文</a>
+</p>
+
 ---
 
 ## Hello, I'm Aolinge
