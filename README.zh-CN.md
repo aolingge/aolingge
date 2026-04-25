@@ -38,7 +38,7 @@
   <a href="https://github.com/aolingge/agent-hardening-kit"><b>agent-hardening-kit</b></a>
   · 一个命令检查 AI Agent/MCP 仓库安全成熟度，支持 SARIF、HTML 报告、双语文档和 CI 策略模板。
   <br />
-  <code>npx agent-hardening-kit --path . --markdown</code>
+  <code>npx github:aolingge/agent-hardening-kit --path . --markdown</code>
   <br />
   <a href="https://github.com/aolingge/mcp-config-doctor"><b>mcp-config-doctor</b></a>
   · 面向 Claude Desktop、Cursor、Codex 和 Agent 工作流的本地 MCP 配置体检工具。
