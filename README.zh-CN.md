@@ -33,6 +33,14 @@
 
 ## 重点项目
 
+<p>
+  <b>最新：</b>
+  <a href="https://github.com/aolingge/mcp-config-doctor"><b>mcp-config-doctor</b></a>
+  · 面向 Claude Desktop、Cursor、Codex 和 Agent 工作流的本地 MCP 配置体检工具。
+  <br />
+  <code>npx mcp-config-doctor --config mcp.json</code>
+</p>
+
 <table>
   <tr>
     <td width="50%" valign="top">

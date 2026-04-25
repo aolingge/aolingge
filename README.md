@@ -35,6 +35,14 @@ Right now I am focused on three things:
 
 ## Featured Work
 
+<p>
+  <b>Newest:</b>
+  <a href="https://github.com/aolingge/mcp-config-doctor"><b>mcp-config-doctor</b></a>
+  · Local-first MCP config diagnostics for Claude Desktop, Cursor, Codex, and agent-era developer workflows.
+  <br />
+  <code>npx mcp-config-doctor --config mcp.json</code>
+</p>
+
 <table>
   <tr>
     <td width="50%" valign="top">
