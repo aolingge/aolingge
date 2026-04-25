@@ -51,6 +51,25 @@
   <code>npx github:aolingge/prompt-yaml-lint review.prompt.yml</code>
 </p>
 
+<details open>
+<summary><b>AI Agent Mini Tools</b></summary>
+<br />
+
+| 工具 | 检查内容 |
+| --- | --- |
+| [agent-context-budget](https://github.com/aolingge/agent-context-budget) | Agent 上下文体积和仓库说明质量 |
+| [agent-env-redactor](https://github.com/aolingge/agent-env-redactor) | Agent 报告和配置片段里的疑似密钥 |
+| [mcp-readme-score](https://github.com/aolingge/mcp-readme-score) | MCP README 的安装、配置、权限和安全说明 |
+| [skill-md-lint](https://github.com/aolingge/skill-md-lint) | AI Agent `SKILL.md` 的触发、输入、输出和安全边界 |
+| [agentignore-check](https://github.com/aolingge/agentignore-check) | `.agentignore` 是否屏蔽私有文件和噪声文件 |
+| [repo-context-pack](https://github.com/aolingge/repo-context-pack) | 面向编程 Agent 的仓库上下文包 |
+| [agent-ci-doctor](https://github.com/aolingge/agent-ci-doctor) | Agent 收尾前可运行的 CI 命令 |
+| [mcp-tool-name-lint](https://github.com/aolingge/mcp-tool-name-lint) | 含糊或高风险 MCP tool 名称 |
+| [agent-runbook-check](https://github.com/aolingge/agent-runbook-check) | 排障、验证、回滚和汇报 runbook 覆盖度 |
+| [prompt-eval-seed](https://github.com/aolingge/prompt-eval-seed) | Prompt eval 种子的输入、预期、边界和安全说明 |
+
+</details>
+
 <table>
   <tr>
     <td width="50%" valign="top">

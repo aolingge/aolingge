@@ -53,6 +53,25 @@ Right now I am focused on three things:
   <code>npx github:aolingge/prompt-yaml-lint review.prompt.yml</code>
 </p>
 
+<details open>
+<summary><b>AI Agent Mini Tools</b></summary>
+<br />
+
+| Tool | What it checks |
+| --- | --- |
+| [agent-context-budget](https://github.com/aolingge/agent-context-budget) | Agent context size and useful repo instruction signals |
+| [agent-env-redactor](https://github.com/aolingge/agent-env-redactor) | Secret-like values in agent reports and config snippets |
+| [mcp-readme-score](https://github.com/aolingge/mcp-readme-score) | MCP README install, config, permissions, and security notes |
+| [skill-md-lint](https://github.com/aolingge/skill-md-lint) | AI agent `SKILL.md` trigger, input, output, and safety clarity |
+| [agentignore-check](https://github.com/aolingge/agentignore-check) | `.agentignore` rules for private and noisy files |
+| [repo-context-pack](https://github.com/aolingge/repo-context-pack) | Compact repo context packs for coding agents |
+| [agent-ci-doctor](https://github.com/aolingge/agent-ci-doctor) | CI commands agents can run before finishing |
+| [mcp-tool-name-lint](https://github.com/aolingge/mcp-tool-name-lint) | Vague or risky MCP tool names |
+| [agent-runbook-check](https://github.com/aolingge/agent-runbook-check) | Debug, verify, rollback, and report runbook coverage |
+| [prompt-eval-seed](https://github.com/aolingge/prompt-eval-seed) | Prompt eval seed inputs, expected behavior, edge cases, and safety |
+
+</details>
+
 <table>
   <tr>
     <td width="50%" valign="top">
