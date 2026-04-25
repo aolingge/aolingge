@@ -69,6 +69,16 @@ Right now I am focused on three things:
 | [mcp-tool-name-lint](https://github.com/aolingge/mcp-tool-name-lint) | Vague or risky MCP tool names |
 | [agent-runbook-check](https://github.com/aolingge/agent-runbook-check) | Debug, verify, rollback, and report runbook coverage |
 | [prompt-eval-seed](https://github.com/aolingge/prompt-eval-seed) | Prompt eval seed inputs, expected behavior, edge cases, and safety |
+| [agent-pr-brief](https://github.com/aolingge/agent-pr-brief) | Pull request briefs for safer AI code review |
+| [mcp-env-template-check](https://github.com/aolingge/mcp-env-template-check) | MCP `.env.example` completeness without real tokens |
+| [prompt-injection-smoke](https://github.com/aolingge/prompt-injection-smoke) | Prompt-injection smoke checks for agent workflows |
+| [agent-permission-audit](https://github.com/aolingge/agent-permission-audit) | File, shell, browser, network, and secret permission boundaries |
+| [readme-demo-link-check](https://github.com/aolingge/readme-demo-link-check) | README demo links, quick starts, screenshots, and mirrors |
+| [agent-log-triage](https://github.com/aolingge/agent-log-triage) | Actionable AI agent failure log signals |
+| [repo-release-proof](https://github.com/aolingge/repo-release-proof) | Release notes with changes, verification, versions, and mirrors |
+| [agent-task-scope](https://github.com/aolingge/agent-task-scope) | Task briefs with scope, acceptance criteria, constraints, and verification |
+| [mcp-manifest-lint](https://github.com/aolingge/mcp-manifest-lint) | MCP manifest name, transport, target, and permissions |
+| [ai-changelog-guard](https://github.com/aolingge/ai-changelog-guard) | AI-assisted changelog verification and compatibility notes |
 
 </details>
 

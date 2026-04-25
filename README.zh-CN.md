@@ -67,6 +67,16 @@
 | [mcp-tool-name-lint](https://github.com/aolingge/mcp-tool-name-lint) | 含糊或高风险 MCP tool 名称 |
 | [agent-runbook-check](https://github.com/aolingge/agent-runbook-check) | 排障、验证、回滚和汇报 runbook 覆盖度 |
 | [prompt-eval-seed](https://github.com/aolingge/prompt-eval-seed) | Prompt eval 种子的输入、预期、边界和安全说明 |
+| [agent-pr-brief](https://github.com/aolingge/agent-pr-brief) | 面向 AI code review 的 PR 说明检查 |
+| [mcp-env-template-check](https://github.com/aolingge/mcp-env-template-check) | MCP `.env.example` 完整度和真实 token 风险 |
+| [prompt-injection-smoke](https://github.com/aolingge/prompt-injection-smoke) | Agent 工作流里的 prompt injection 冒烟检查 |
+| [agent-permission-audit](https://github.com/aolingge/agent-permission-audit) | 文件、shell、浏览器、网络和密钥权限边界 |
+| [readme-demo-link-check](https://github.com/aolingge/readme-demo-link-check) | README demo、快速开始、截图和镜像链接 |
+| [agent-log-triage](https://github.com/aolingge/agent-log-triage) | AI Agent 失败日志里的可执行排障信号 |
+| [repo-release-proof](https://github.com/aolingge/repo-release-proof) | release note 的改动、验证、版本和镜像证明 |
+| [agent-task-scope](https://github.com/aolingge/agent-task-scope) | 任务说明里的范围、验收标准、约束和验证 |
+| [mcp-manifest-lint](https://github.com/aolingge/mcp-manifest-lint) | MCP manifest 的名称、传输、目标和权限 |
+| [ai-changelog-guard](https://github.com/aolingge/ai-changelog-guard) | AI 辅助 changelog 的验证和兼容性说明 |
 
 </details>
 
