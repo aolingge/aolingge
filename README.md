@@ -69,6 +69,38 @@ Right now I am focused on three things:
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h3>oss-readme-check</h3>
+      <p>A zero-dependency CLI that audits whether a README is ready for an open-source launch: quick start, visual anchor, multilingual entry, contribution path, security boundary, and first-success verification.</p>
+      <p>
+        <a href="https://github.com/aolingge/oss-readme-check"><b>Repository</b></a>
+        ·
+        <a href="https://github.com/aolingge/oss-readme-check/releases/tag/v0.1.0"><b>Release</b></a>
+      </p>
+      <p><code>npx oss-readme-check --path README.md</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/CLI-111827?style=flat-square&logo=gnometerminal&logoColor=white" alt="CLI" />
+        <img src="https://img.shields.io/badge/Docs-0f766e?style=flat-square&logo=readthedocs&logoColor=white" alt="Docs" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>vps-deploy-doctor</h3>
+      <p>Read-only VPS deployment diagnostics for Nginx, systemd, ports, Docker, firewall, disk, memory, and logs. Built for student projects that fail at the final deployment step.</p>
+      <p>
+        <a href="https://github.com/aolingge/vps-deploy-doctor"><b>Repository</b></a>
+        ·
+        <a href="https://github.com/aolingge/vps-deploy-doctor/releases/tag/v0.1.0"><b>Release</b></a>
+      </p>
+      <p><code>bash bin/vps-deploy-doctor.sh --service demo-api</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+        <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
+        <img src="https://img.shields.io/badge/DevOps-0f766e?style=flat-square&logo=docker&logoColor=white" alt="DevOps" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>agent-secret-guard</h3>
       <p>A 5-minute safety check for agent-era repositories. It catches MCP tokens in args, broad filesystem access, browser profile exposure, risky automation notes, and over-permissive GitHub Actions workflows.</p>
       <p>

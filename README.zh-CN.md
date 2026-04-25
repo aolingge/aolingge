@@ -57,6 +57,28 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h3>oss-readme-check</h3>
+      <p>一个零依赖 CLI，用来检查 README 是否适合开源发布：快速开始、视觉锚点、多语言入口、贡献路径、安全边界、首次成功验证。</p>
+      <p>
+        <a href="https://github.com/aolingge/oss-readme-check"><b>Repository</b></a>
+        ·
+        <a href="https://github.com/aolingge/oss-readme-check/releases/tag/v0.1.0"><b>Release</b></a>
+      </p>
+      <p><code>npx oss-readme-check --path README.md</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>vps-deploy-doctor</h3>
+      <p>一个只读 VPS 部署诊断工具，用来检查 Nginx、systemd、端口、Docker、防火墙、磁盘、内存和日志，适合学生项目上线排障。</p>
+      <p>
+        <a href="https://github.com/aolingge/vps-deploy-doctor"><b>Repository</b></a>
+        ·
+        <a href="https://github.com/aolingge/vps-deploy-doctor/releases/tag/v0.1.0"><b>Release</b></a>
+      </p>
+      <p><code>bash bin/vps-deploy-doctor.sh --service demo-api</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>agent-secret-guard</h3>
       <p>一个面向 Agent 时代仓库的 5 分钟安全检查工具，用来发现 MCP token、过宽文件系统权限、浏览器 profile 暴露和 GitHub Actions 风险。</p>
       <p>
