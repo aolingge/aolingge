@@ -41,6 +41,16 @@ Right now I am focused on three things:
   · Local-first MCP config diagnostics for Claude Desktop, Cursor, Codex, and agent-era developer workflows.
   <br />
   <code>npx github:aolingge/mcp-config-doctor --config mcp.json</code>
+  <br />
+  <a href="https://github.com/aolingge/agents-md-doctor"><b>agents-md-doctor</b></a>
+  · AGENTS.md readiness checks for AI coding agents.
+  <br />
+  <code>npx github:aolingge/agents-md-doctor --path AGENTS.md</code>
+  <br />
+  <a href="https://github.com/aolingge/prompt-yaml-lint"><b>prompt-yaml-lint</b></a>
+  · Prompt-as-code quality checks for .prompt.yml files.
+  <br />
+  <code>npx github:aolingge/prompt-yaml-lint review.prompt.yml</code>
 </p>
 
 <table>

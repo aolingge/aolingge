@@ -39,6 +39,16 @@
   · 面向 Claude Desktop、Cursor、Codex 和 Agent 工作流的本地 MCP 配置体检工具。
   <br />
   <code>npx github:aolingge/mcp-config-doctor --config mcp.json</code>
+  <br />
+  <a href="https://github.com/aolingge/agents-md-doctor"><b>agents-md-doctor</b></a>
+  · 面向 AI 编程 Agent 的 AGENTS.md 准备度检查工具。
+  <br />
+  <code>npx github:aolingge/agents-md-doctor --path AGENTS.md</code>
+  <br />
+  <a href="https://github.com/aolingge/prompt-yaml-lint"><b>prompt-yaml-lint</b></a>
+  · 面向 .prompt.yml 的 Prompt-as-code 质量检查工具。
+  <br />
+  <code>npx github:aolingge/prompt-yaml-lint review.prompt.yml</code>
 </p>
 
 <table>
