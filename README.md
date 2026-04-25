@@ -34,6 +34,37 @@ Right now I am focused on three things:
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>student-deploy-kit</h3>
+      <p>A beginner-friendly deployment toolkit for students and indie developers: Nginx configs, Spring Boot systemd scripts, frontend deployment, Docker Compose, VPS security, and troubleshooting docs.</p>
+      <p>
+        <a href="https://github.com/aolingge/student-deploy-kit"><b>Repository</b></a>
+        ·
+        <a href="https://github.com/aolingge/student-deploy-kit/releases/tag/v0.1.0"><b>Release</b></a>
+      </p>
+      <p><code>bash scripts/validate.sh</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
+        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>open-source-portfolio</h3>
+      <p>A deployment-first open source portfolio template for students and independent developers, published with GitHub Pages and tuned for project proof over decoration.</p>
+      <p>
+        <a href="https://github.com/aolingge/open-source-portfolio"><b>Repository</b></a>
+        ·
+        <a href="https://aolingge.github.io/open-source-portfolio/"><b>Live site</b></a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827" alt="React" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/GitHub%20Pages-222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>agent-secret-guard</h3>
       <p>A 5-minute safety check for agent-era repositories. It catches MCP tokens in args, broad filesystem access, browser profile exposure, risky automation notes, and over-permissive GitHub Actions workflows.</p>
       <p>
