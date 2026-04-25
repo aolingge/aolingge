@@ -79,6 +79,21 @@ Right now I am focused on three things:
 | [agent-task-scope](https://github.com/aolingge/agent-task-scope) | Task briefs with scope, acceptance criteria, constraints, and verification |
 | [mcp-manifest-lint](https://github.com/aolingge/mcp-manifest-lint) | MCP manifest name, transport, target, and permissions |
 | [ai-changelog-guard](https://github.com/aolingge/ai-changelog-guard) | AI-assisted changelog verification and compatibility notes |
+| [agent-windows-path-doctor](https://github.com/aolingge/agent-windows-path-doctor) | Check AI-agent task files for Windows path, WSL path, quoting, and cross-platform command risks. |
+| [agent-shell-safety-check](https://github.com/aolingge/agent-shell-safety-check) | Check agent runbooks for shell command scope, verification, and destructive-operation boundaries. |
+| [mcp-permission-matrix](https://github.com/aolingge/mcp-permission-matrix) | Check MCP server docs for a clear tool, permission, data-scope, and risk matrix. |
+| [prompt-regression-report](https://github.com/aolingge/prompt-regression-report) | Check prompt regression reports for input, expected output, actual output, diffs, and decisions. |
+| [repo-agent-health](https://github.com/aolingge/repo-agent-health) | Check whether a repository exposes the basic health signals an AI coding agent needs. |
+| [agent-tool-risk-score](https://github.com/aolingge/agent-tool-risk-score) | Score file, shell, network, browser, and secret risks in AI-agent tool lists. |
+| [mcp-server-smoke-test](https://github.com/aolingge/mcp-server-smoke-test) | Check MCP server smoke-test docs for startup, tool listing, sample calls, and failure handling. |
+| [readme-install-replay](https://github.com/aolingge/readme-install-replay) | Check README install steps for copy-ready prerequisites, commands, and verification output. |
+| [ci-command-harvest](https://github.com/aolingge/ci-command-harvest) | Check repo docs for test, build, lint, and verification commands agents can safely run. |
+| [agent-memory-audit](https://github.com/aolingge/agent-memory-audit) | Check AI memory or rule files for trigger conditions, behavior, exceptions, and secret boundaries. |
+| [release-mirror-check](https://github.com/aolingge/release-mirror-check) | Check release records for GitHub, Gitee, tag, release, and verification evidence. |
+| [prompt-fixture-pack](https://github.com/aolingge/prompt-fixture-pack) | Check prompt fixture packs for happy path, edge, failure, safety, and expected-output cases. |
+| [agent-context-diff](https://github.com/aolingge/agent-context-diff) | Check agent context diff notes for additions, removals, risks, verification, and scope. |
+| [repo-onboarding-check](https://github.com/aolingge/repo-onboarding-check) | Check whether new contributors can find install, run, test, contribute, and support paths. |
+| [ai-pr-risk-labeler](https://github.com/aolingge/ai-pr-risk-labeler) | Check PR descriptions for enough evidence to label AI-assisted change risk. |
 
 </details>
 

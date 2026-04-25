@@ -77,6 +77,21 @@
 | [agent-task-scope](https://github.com/aolingge/agent-task-scope) | 任务说明里的范围、验收标准、约束和验证 |
 | [mcp-manifest-lint](https://github.com/aolingge/mcp-manifest-lint) | MCP manifest 的名称、传输、目标和权限 |
 | [ai-changelog-guard](https://github.com/aolingge/ai-changelog-guard) | AI 辅助 changelog 的验证和兼容性说明 |
+| [agent-windows-path-doctor](https://github.com/aolingge/agent-windows-path-doctor) | Windows/WSL 路径、引号和跨平台命令风险 |
+| [agent-shell-safety-check](https://github.com/aolingge/agent-shell-safety-check) | shell 命令范围、验证和危险操作边界 |
+| [mcp-permission-matrix](https://github.com/aolingge/mcp-permission-matrix) | MCP 工具、权限、数据范围和风险矩阵 |
+| [prompt-regression-report](https://github.com/aolingge/prompt-regression-report) | prompt 回归报告里的输入、期望、实际输出和结论 |
+| [repo-agent-health](https://github.com/aolingge/repo-agent-health) | 仓库是否具备 AI Agent 接手所需健康信号 |
+| [agent-tool-risk-score](https://github.com/aolingge/agent-tool-risk-score) | Agent 工具清单里的文件、shell、网络和密钥风险 |
+| [mcp-server-smoke-test](https://github.com/aolingge/mcp-server-smoke-test) | MCP server 启动、工具列表、样例调用和失败处理 |
+| [readme-install-replay](https://github.com/aolingge/readme-install-replay) | README 安装步骤、前置条件、命令和验证输出 |
+| [ci-command-harvest](https://github.com/aolingge/ci-command-harvest) | 仓库说明里的测试、构建、lint 和验证命令 |
+| [agent-memory-audit](https://github.com/aolingge/agent-memory-audit) | AI 记忆/规则文件的触发条件、行为、例外和密钥边界 |
+| [release-mirror-check](https://github.com/aolingge/release-mirror-check) | GitHub/Gitee/tag/release/验证记录是否完整 |
+| [prompt-fixture-pack](https://github.com/aolingge/prompt-fixture-pack) | prompt fixture 是否覆盖正常、边界、失败和期望输出 |
+| [agent-context-diff](https://github.com/aolingge/agent-context-diff) | 上下文差异里的新增、删除、风险、验证和影响范围 |
+| [repo-onboarding-check](https://github.com/aolingge/repo-onboarding-check) | 新贡献者安装、运行、测试、贡献和求助路径 |
+| [ai-pr-risk-labeler](https://github.com/aolingge/ai-pr-risk-labeler) | PR 描述是否足够支持 AI 辅助改动风险标签 |
 
 </details>
 
