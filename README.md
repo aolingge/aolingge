@@ -40,7 +40,7 @@ Right now I am focused on three things:
   <a href="https://github.com/aolingge/mcp-config-doctor"><b>mcp-config-doctor</b></a>
   · Local-first MCP config diagnostics for Claude Desktop, Cursor, Codex, and agent-era developer workflows.
   <br />
-  <code>npx mcp-config-doctor --config mcp.json</code>
+  <code>npx github:aolingge/mcp-config-doctor --config mcp.json</code>
 </p>
 
 <table>
