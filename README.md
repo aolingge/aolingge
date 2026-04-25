@@ -37,6 +37,11 @@ Right now I am focused on three things:
 
 <p>
   <b>Newest:</b>
+  <a href="https://github.com/aolingge/agent-hardening-kit"><b>agent-hardening-kit</b></a>
+  · One-command AI Agent/MCP repository hardening scanner with SARIF, HTML reports, bilingual docs, and CI policy templates.
+  <br />
+  <code>npx agent-hardening-kit --path . --markdown</code>
+  <br />
   <a href="https://github.com/aolingge/mcp-config-doctor"><b>mcp-config-doctor</b></a>
   · Local-first MCP config diagnostics for Claude Desktop, Cursor, Codex, and agent-era developer workflows.
   <br />
