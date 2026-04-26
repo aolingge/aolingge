@@ -35,6 +35,23 @@ Right now I am focused on three things:
 
 ## Featured Work
 
+### 10 open-source CLIs for AI-agent-era repositories
+
+I just shipped a focused set of small tools for repositories used with Codex, Claude Code, Cursor, MCP servers, and prompt-as-code workflows.
+
+| Tool | First command |
+| --- | --- |
+| [agent-hardening-kit](https://github.com/aolingge/agent-hardening-kit) | `npx github:aolingge/agent-hardening-kit --path . --markdown` |
+| [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | `npx agent-secret-guard scan . --fail-on high` |
+| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | `npx github:aolingge/mcp-config-doctor --config mcp.json` |
+| [mcp-readme-score](https://github.com/aolingge/mcp-readme-score) | `npx github:aolingge/mcp-readme-score --path README.md` |
+| [mcp-permission-matrix](https://github.com/aolingge/mcp-permission-matrix) | `npx github:aolingge/mcp-permission-matrix --path README.md` |
+| [repo-agent-health](https://github.com/aolingge/repo-agent-health) | `npx github:aolingge/repo-agent-health --path .` |
+| [repo-context-pack](https://github.com/aolingge/repo-context-pack) | `npx github:aolingge/repo-context-pack --path .` |
+| [oss-readme-check](https://github.com/aolingge/oss-readme-check) | `npx github:aolingge/oss-readme-check --path README.md` |
+| [prompt-injection-smoke](https://github.com/aolingge/prompt-injection-smoke) | `npx github:aolingge/prompt-injection-smoke --path prompts/` |
+| [skill-md-lint](https://github.com/aolingge/skill-md-lint) | `npx github:aolingge/skill-md-lint --path SKILL.md` |
+
 <p>
   <b>Newest:</b>
   <a href="https://github.com/aolingge/agent-hardening-kit"><b>agent-hardening-kit</b></a>
