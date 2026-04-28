@@ -41,6 +41,8 @@ If you found me through GitHub search, these are the clearest entry points:
 | --- | --- | --- |
 | Check an AI-agent or MCP repo before launch | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | `npx agent-secret-guard scan . --fail-on high` |
 | Produce one report for repo rules, README, CI, secrets, and agent readiness | [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | `npx agent-reliability-kit scan .` |
+| Capture a redacted trace of an agent or shell run | [agent-run-trace-pack](https://github.com/aolingge/agent-run-trace-pack) | `npx agent-run-trace-pack run -- npm test` |
+| Diagnose MCP config before your AI client fails | [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | `npx mcp-config-doctor --config mcp.json` |
 | Browse the portfolio and service landing page | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | [Live site](https://aolingge.github.io/open-source-portfolio/) |
 
 Follow this account for small local-first tools that make AI-assisted repositories safer, easier to verify, and easier to release.
@@ -67,7 +69,8 @@ I just shipped a focused set of small tools for repositories used with Codex, Cl
 | --- | --- |
 | [agent-hardening-kit](https://github.com/aolingge/agent-hardening-kit) | `npx github:aolingge/agent-hardening-kit --path . --markdown` |
 | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | `npx agent-secret-guard scan . --fail-on high` |
-| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | `npx github:aolingge/mcp-config-doctor --config mcp.json` |
+| [agent-run-trace-pack](https://github.com/aolingge/agent-run-trace-pack) | `npx agent-run-trace-pack run -- npm test` |
+| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | `npx mcp-config-doctor --config mcp.json` |
 | [mcp-readme-score](https://github.com/aolingge/mcp-readme-score) | `npx github:aolingge/mcp-readme-score --path README.md` |
 | [mcp-permission-matrix](https://github.com/aolingge/mcp-permission-matrix) | `npx github:aolingge/mcp-permission-matrix --path README.md` |
 | [repo-agent-health](https://github.com/aolingge/repo-agent-health) | `npx github:aolingge/repo-agent-health --path .` |
@@ -78,20 +81,20 @@ I just shipped a focused set of small tools for repositories used with Codex, Cl
 
 <p>
   <b>Newest:</b>
-  <a href="https://github.com/aolingge/agent-hardening-kit"><b>agent-hardening-kit</b></a>
-  · One-command AI Agent/MCP repository hardening scanner with SARIF, HTML reports, bilingual docs, and CI policy templates.
+  <a href="https://github.com/aolingge/agent-run-trace-pack"><b>agent-run-trace-pack</b></a>
+  · Redacted trace packs for agent or shell runs, with output, git diff, risk signals, Markdown, and HTML reports.
   <br />
-  <code>npx github:aolingge/agent-hardening-kit --path . --markdown</code>
+  <code>npx agent-run-trace-pack run -- npm test</code>
   <br />
   <a href="https://github.com/aolingge/mcp-config-doctor"><b>mcp-config-doctor</b></a>
   · Local-first MCP config diagnostics for Claude Desktop, Cursor, Codex, and agent-era developer workflows.
   <br />
-  <code>npx github:aolingge/mcp-config-doctor --config mcp.json</code>
+  <code>npx mcp-config-doctor --config mcp.json</code>
   <br />
-  <a href="https://github.com/aolingge/agents-md-doctor"><b>agents-md-doctor</b></a>
-  · AGENTS.md readiness checks for AI coding agents.
+  <a href="https://github.com/aolingge/agent-hardening-kit"><b>agent-hardening-kit</b></a>
+  · One-command AI Agent/MCP repository hardening scanner with SARIF, HTML reports, bilingual docs, and CI policy templates.
   <br />
-  <code>npx github:aolingge/agents-md-doctor --path AGENTS.md</code>
+  <code>npx github:aolingge/agent-hardening-kit --path . --markdown</code>
   <br />
   <a href="https://github.com/aolingge/prompt-yaml-lint"><b>prompt-yaml-lint</b></a>
   · Prompt-as-code quality checks for .prompt.yml files.

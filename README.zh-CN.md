@@ -39,6 +39,8 @@
 | --- | --- | --- |
 | 发布前检查 AI Agent / MCP 仓库 | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | `npx agent-secret-guard scan . --fail-on high` |
 | 给仓库生成规则、README、CI、secret 和 Agent readiness 报告 | [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | `npx agent-reliability-kit scan .` |
+| 记录 Agent / shell 运行的脱敏 trace | [agent-run-trace-pack](https://github.com/aolingge/agent-run-trace-pack) | `npx agent-run-trace-pack run -- npm test` |
+| 在 AI 客户端报错前检查 MCP 配置 | [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | `npx mcp-config-doctor --config mcp.json` |
 | 浏览作品集和服务页 | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | [Live site](https://aolingge.github.io/open-source-portfolio/) |
 
 关注这个账号可以持续看到本地优先的小工具：让 AI 辅助开发的仓库更安全、更容易验证，也更容易发布。
@@ -65,7 +67,8 @@
 | --- | --- |
 | [agent-hardening-kit](https://github.com/aolingge/agent-hardening-kit) | `npx github:aolingge/agent-hardening-kit --path . --markdown` |
 | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | `npx agent-secret-guard scan . --fail-on high` |
-| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | `npx github:aolingge/mcp-config-doctor --config mcp.json` |
+| [agent-run-trace-pack](https://github.com/aolingge/agent-run-trace-pack) | `npx agent-run-trace-pack run -- npm test` |
+| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | `npx mcp-config-doctor --config mcp.json` |
 | [mcp-readme-score](https://github.com/aolingge/mcp-readme-score) | `npx github:aolingge/mcp-readme-score --path README.md` |
 | [mcp-permission-matrix](https://github.com/aolingge/mcp-permission-matrix) | `npx github:aolingge/mcp-permission-matrix --path README.md` |
 | [repo-agent-health](https://github.com/aolingge/repo-agent-health) | `npx github:aolingge/repo-agent-health --path .` |
@@ -76,20 +79,20 @@
 
 <p>
   <b>最新：</b>
-  <a href="https://github.com/aolingge/agent-hardening-kit"><b>agent-hardening-kit</b></a>
-  · 一个命令检查 AI Agent/MCP 仓库安全成熟度，支持 SARIF、HTML 报告、双语文档和 CI 策略模板。
+  <a href="https://github.com/aolingge/agent-run-trace-pack"><b>agent-run-trace-pack</b></a>
+  · 为 Agent / shell 运行生成脱敏 trace pack，包含输出、git diff、风险信号、Markdown 和 HTML 报告。
   <br />
-  <code>npx github:aolingge/agent-hardening-kit --path . --markdown</code>
+  <code>npx agent-run-trace-pack run -- npm test</code>
   <br />
   <a href="https://github.com/aolingge/mcp-config-doctor"><b>mcp-config-doctor</b></a>
   · 面向 Claude Desktop、Cursor、Codex 和 Agent 工作流的本地 MCP 配置体检工具。
   <br />
-  <code>npx github:aolingge/mcp-config-doctor --config mcp.json</code>
+  <code>npx mcp-config-doctor --config mcp.json</code>
   <br />
-  <a href="https://github.com/aolingge/agents-md-doctor"><b>agents-md-doctor</b></a>
-  · 面向 AI 编程 Agent 的 AGENTS.md 准备度检查工具。
+  <a href="https://github.com/aolingge/agent-hardening-kit"><b>agent-hardening-kit</b></a>
+  · 一个命令检查 AI Agent/MCP 仓库安全成熟度，支持 SARIF、HTML 报告、双语文档和 CI 策略模板。
   <br />
-  <code>npx github:aolingge/agents-md-doctor --path AGENTS.md</code>
+  <code>npx github:aolingge/agent-hardening-kit --path . --markdown</code>
   <br />
   <a href="https://github.com/aolingge/prompt-yaml-lint"><b>prompt-yaml-lint</b></a>
   · 面向 .prompt.yml 的 Prompt-as-code 质量检查工具。
