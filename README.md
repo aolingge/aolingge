@@ -33,6 +33,30 @@ Right now I am focused on three things:
 | Backend practice | Java / Spring Boot services with clean project structure and delivery notes. |
 | Personal systems | Local-first workflows for study, research, releases, backup, and writing. |
 
+## Start Here
+
+If you found me through GitHub search, these are the clearest entry points:
+
+| Need | Start with | First action |
+| --- | --- | --- |
+| Check an AI-agent or MCP repo before launch | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | `npx agent-secret-guard scan . --fail-on high` |
+| Produce one report for repo rules, README, CI, secrets, and agent readiness | [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | `npx agent-reliability-kit scan .` |
+| Browse the portfolio and service landing page | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | [Live site](https://aolingge.github.io/open-source-portfolio/) |
+
+Follow this account for small local-first tools that make AI-assisted repositories safer, easier to verify, and easier to release.
+
+## Available For
+
+I am taking a small number of focused launch-readiness audits for AI agent, MCP, GitHub Actions, and local automation repositories.
+
+| Service | What you get | Start here |
+| --- | --- | --- |
+| AI Agent Repo Safety Audit | 24h Markdown risk summary for MCP args, agent instructions, local credential paths, browser profiles, and CI permissions. | [Service page](https://github.com/aolingge/agent-secret-guard/blob/main/docs/ai-agent-repo-safety-audit.md) |
+| Fix PR | A scoped pull request that moves risky examples to safer config patterns after an audit. | [Sample report](https://github.com/aolingge/agent-secret-guard/blob/main/docs/sample-audit-report.md) |
+| Local automation hardening | Review of repo docs, workflows, and scripts before public release or client handoff. | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) |
+
+For a first pass, send a public repo link by email or GitHub. Please do not send production secrets, cookies, private keys, or live credentials.
+
 ## Featured Work
 
 ### 10 open-source CLIs for AI-agent-era repositories

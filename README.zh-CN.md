@@ -31,6 +31,30 @@
 | 后端实践 | Java / Spring Boot 服务，强调清晰结构、API 设计和交付记录。 |
 | 个人系统 | 本地优先的学习、调研、发布、备份和写作工作流。 |
 
+## 从这里开始
+
+如果你是从 GitHub 搜索或别人分享的链接点进来，优先看这几个入口：
+
+| 需求 | 先看项目 | 第一条命令 / 入口 |
+| --- | --- | --- |
+| 发布前检查 AI Agent / MCP 仓库 | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | `npx agent-secret-guard scan . --fail-on high` |
+| 给仓库生成规则、README、CI、secret 和 Agent readiness 报告 | [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | `npx agent-reliability-kit scan .` |
+| 浏览作品集和服务页 | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | [Live site](https://aolingge.github.io/open-source-portfolio/) |
+
+关注这个账号可以持续看到本地优先的小工具：让 AI 辅助开发的仓库更安全、更容易验证，也更容易发布。
+
+## 可接小单
+
+我现在优先接少量 AI Agent / MCP / GitHub Actions / 本地自动化仓库的发布前安全检查。
+
+| 服务 | 交付内容 | 入口 |
+| --- | --- | --- |
+| AI Agent Repo Safety Audit | 24 小时内给一份 Markdown 风险摘要，检查 MCP args、agent instructions、本地凭据路径、浏览器 profile 和 CI 权限。 | [服务页](https://github.com/aolingge/agent-secret-guard/blob/main/docs/ai-agent-repo-safety-audit.md) |
+| Fix PR | 审计后提交一个范围明确的修复 PR，把高风险示例改成更安全的配置模式。 | [样例报告](https://github.com/aolingge/agent-secret-guard/blob/main/docs/sample-audit-report.md) |
+| 本地自动化加固 | 在公开发布或客户交付前，检查仓库文档、workflow 和脚本里的安全边界。 | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) |
+
+如果要先做一版检查，可以发公开 repo 链接到邮箱或 GitHub。不要发送生产密钥、Cookie、私钥或真实可用凭据。
+
 ## 重点项目
 
 ### 10 个面向 AI Agent 仓库的小型开源 CLI
