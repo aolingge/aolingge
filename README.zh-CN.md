@@ -5,6 +5,7 @@
 <h1 align="center">Aolinge</h1>
 
 <p align="center">
+  <a href="https://aolingge.dev"><img src="https://img.shields.io/badge/Website-aolingge.dev-0D6B72?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="Website" /></a>
   <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-151515?style=flat-square&logo=github" alt="GitHub profile" /></a>
   <a href="mailto:1930668092@qq.com"><img src="https://img.shields.io/badge/Email-1930668092%40qq.com-D94A38?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -23,6 +24,8 @@
 ## 关注方向
 
 我会把容易失控的一次性开发流程整理成可以重复运行、容易审查、方便交付的小工具。目前主要做三类事情：
+
+中心站：[aolingge.dev](https://aolingge.dev) · 项目页：[aolingge.dev/projects](https://aolingge.dev/projects/) · 博客 RSS：[blog.aolingge.dev/feed](https://blog.aolingge.dev/feed/)
 
 | 方向 | 我在做什么 |
 | --- | --- |

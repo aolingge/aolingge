@@ -5,6 +5,7 @@
 <h1 align="center">Aolinge</h1>
 
 <p align="center">
+  <a href="https://aolingge.dev"><img src="https://img.shields.io/badge/Website-aolingge.dev-0D6B72?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="Website" /></a>
   <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-151515?style=flat-square&logo=github" alt="GitHub profile" /></a>
   <a href="mailto:1930668092@qq.com"><img src="https://img.shields.io/badge/Email-1930668092%40qq.com-D94A38?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -24,6 +25,8 @@
 
 I turn fragile development workflows into small tools that are easy to run,
 review, and ship again. My current work is centered on three areas:
+
+Main hub: [aolingge.dev](https://aolingge.dev) · Projects: [aolingge.dev/projects](https://aolingge.dev/projects/) · Blog RSS: [blog.aolingge.dev/feed](https://blog.aolingge.dev/feed/)
 
 | Area | What I build |
 | --- | --- |
