@@ -12,7 +12,7 @@
 
 <p align="center">
   <b>Computer Science student at Chongqing University</b><br />
-  Building local-first tools for AI-agent repositories, MCP safety, and repeatable software delivery.
+  Building local-first safety tools, repo doctors, and delivery workflows for AI-agent-era software.
 </p>
 
 <p align="center">
@@ -24,7 +24,8 @@
 ## Focus
 
 I turn fragile development workflows into small tools that are easy to run,
-review, and ship again. My current work is centered on three areas:
+review, and ship again. This profile is the quick map; the website is the
+broader portfolio and project index.
 
 Main hub: [aolingge.dev](https://aolingge.dev) · Projects: [aolingge.dev/projects](https://aolingge.dev/projects/) · Blog RSS: [blog.aolingge.dev/feed](https://blog.aolingge.dev/feed/)
 
@@ -47,11 +48,23 @@ Main hub: [aolingge.dev](https://aolingge.dev) · Projects: [aolingge.dev/projec
 
 | Project | Why it matters |
 | --- | --- |
+| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | Local diagnosis for MCP config paths, transports, commands, and environment assumptions before an AI client fails. |
+| [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | Cross-checks README quality, CI evidence, secret risk, MCP hygiene, and release proof in one readiness report. |
+| [repo-release-proof](https://github.com/aolingge/repo-release-proof) | Keeps release notes accountable by linking change claims to verification and publication evidence. |
 | [agent-symphony-kit](https://github.com/aolingge/agent-symphony-kit) | Local-first task files, preflight checks, gate reports, and workflow contracts for coding agents. |
 | [agent-run-trace-pack](https://github.com/aolingge/agent-run-trace-pack) | Redacted, reviewable trace packs for agent and shell runs. |
 | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | A GitHub Pages portfolio template focused on proof, deployment, and service clarity. |
 | [student-deploy-kit](https://github.com/aolingge/student-deploy-kit) | Beginner-friendly deployment material for Nginx, Spring Boot, frontend apps, Docker, VPS security, and troubleshooting. |
 | [vps-deploy-doctor](https://github.com/aolingge/vps-deploy-doctor) | Read-only VPS diagnostics for Nginx, systemd, ports, Docker, firewall, disk, memory, and logs. |
+
+## Public Surfaces
+
+| Surface | Purpose |
+| --- | --- |
+| [GitHub profile](https://github.com/aolingge) | Fast identity, selected tools, and contact path. |
+| [aolingge.dev](https://aolingge.dev) | Portfolio, project index, and longer-form notes. |
+| [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | The React/Vite source for the bilingual portfolio page. |
+| [maintenance digest](./.github/workflows/maintenance-digest.yml) | Weekly repository-health issue for profile maintenance, Dependabot visibility, and security-alert awareness. |
 
 ## Available For
 

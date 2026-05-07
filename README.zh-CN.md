@@ -12,7 +12,7 @@
 
 <p align="center">
   <b>重庆大学计算机科学学生</b><br />
-  关注 AI Agent 仓库可靠性、MCP 安全和可重复的软件交付流程。
+  构建面向 AI Agent 时代的本地优先安全工具、仓库医生和可验证交付流程。
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 ## 关注方向
 
-我会把容易失控的一次性开发流程整理成可以重复运行、容易审查、方便交付的小工具。目前主要做三类事情：
+我会把容易失控的一次性开发流程整理成可以重复运行、容易审查、方便交付的小工具。这个 Profile 是快速地图；主站承载更完整的作品集和项目索引。
 
 中心站：[aolingge.dev](https://aolingge.dev) · 项目页：[aolingge.dev/projects](https://aolingge.dev/projects/) · 博客 RSS：[blog.aolingge.dev/feed](https://blog.aolingge.dev/feed/)
 
@@ -46,11 +46,23 @@
 
 | 项目 | 价值 |
 | --- | --- |
+| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | 在 AI 客户端连接失败前，本地检查 MCP 配置路径、transport、命令和环境假设。 |
+| [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | 在一份 readiness 报告里交叉检查 README、CI、secret、MCP、n8n 和 release proof。 |
+| [repo-release-proof](https://github.com/aolingge/repo-release-proof) | 让 release note 的改动说明能够对应验证方式和发布位置。 |
 | [agent-symphony-kit](https://github.com/aolingge/agent-symphony-kit) | 为 coding agent 提供本地任务文件、预检、验证报告和 workflow contract。 |
 | [agent-run-trace-pack](https://github.com/aolingge/agent-run-trace-pack) | 记录 Agent 或 shell 运行过程，生成脱敏、可审查的 trace。 |
 | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | 一个以项目证据、部署能力和服务清晰度为核心的 GitHub Pages 作品集模板。 |
 | [student-deploy-kit](https://github.com/aolingge/student-deploy-kit) | 面向学生的部署材料：Nginx、Spring Boot、前端、Docker、VPS 安全和故障排查。 |
 | [vps-deploy-doctor](https://github.com/aolingge/vps-deploy-doctor) | 只读 VPS 诊断工具，检查 Nginx、systemd、端口、Docker、防火墙、磁盘、内存和日志。 |
+
+## 公开入口
+
+| 入口 | 用途 |
+| --- | --- |
+| [GitHub profile](https://github.com/aolingge) | 快速说明身份、精选工具和联系路径。 |
+| [aolingge.dev](https://aolingge.dev) | 作品集、项目索引和更长的笔记。 |
+| [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | 双语作品集页面的 React/Vite 源码。 |
+| [maintenance digest](./.github/workflows/maintenance-digest.yml) | 每周生成 profile 维护 issue，集中查看仓库健康、Dependabot 和安全提示。 |
 
 ## 可合作事项
 
