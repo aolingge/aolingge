@@ -35,6 +35,25 @@ Main hub: [aolingge.dev](https://aolingge.dev) · Projects: [aolingge.dev/projec
 | Local automation | Repeatable scripts and workflow kits for Windows-first development, deployment checks, and safe long-running agent tasks. |
 | Practical backend and delivery | Java / Spring Boot practice projects, deployment notes, and portfolio material with clear verification paths. |
 
+## Recommended Paths
+
+| If you want to... | Start with | Why |
+| --- | --- | --- |
+| Audit an AI-agent repository before launch | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | Flagship safety scanner with a short first run and GitHub Action support. |
+| Understand the whole release-readiness picture | [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | Combines README quality, CI evidence, secrets, MCP hygiene, and release proof. |
+| Debug MCP setup quickly | [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | Focused local diagnosis for config paths, transports, commands, and env assumptions. |
+| See the public portfolio source | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | Bilingual React/Vite portfolio template wired for GitHub Pages. |
+| Deploy a student or practice project | [student-deploy-kit](https://github.com/aolingge/student-deploy-kit) | Practical deployment recipes for frontend, Spring Boot, Docker, Nginx, and VPS work. |
+
+## Repository Labels
+
+| Label | Meaning | Current examples |
+| --- | --- | --- |
+| Core tool | Polished public project with a clear user, command, docs, and verification path. | `agent-secret-guard`, `agent-reliability-kit`, `mcp-config-doctor` |
+| Building block | Small CLI or check that solves one problem and may later merge into a larger kit. | `repo-release-proof`, `readme-demo-link-check`, `prompt-yaml-lint` |
+| Learning sample | Project kept mainly for portfolio evidence, architecture practice, or deployment notes. | `student-deploy-kit`, `express-locker-backend`, `job-backend` |
+| Content base | Knowledge or resource repository where navigation and contribution rules matter most. | `deutsch-lernen`, `indie-hacker-tools-plus` |
+
 ## Start Here
 
 | Project | Use it for | First command |
@@ -56,6 +75,10 @@ Main hub: [aolingge.dev](https://aolingge.dev) · Projects: [aolingge.dev/projec
 | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | A GitHub Pages portfolio template focused on proof, deployment, and service clarity. |
 | [student-deploy-kit](https://github.com/aolingge/student-deploy-kit) | Beginner-friendly deployment material for Nginx, Spring Boot, frontend apps, Docker, VPS security, and troubleshooting. |
 | [vps-deploy-doctor](https://github.com/aolingge/vps-deploy-doctor) | Read-only VPS diagnostics for Nginx, systemd, ports, Docker, firewall, disk, memory, and logs. |
+
+Smaller CLI repositories stay public when they are useful as focused examples, but the
+profile highlights the sharper entry points above so visitors do not have to choose
+between dozens of similar checks.
 
 ## Public Surfaces
 

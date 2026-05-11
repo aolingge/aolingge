@@ -33,6 +33,25 @@
 | 本地自动化 | 面向 Windows 优先开发、部署检查和长任务 Agent 循环的脚本与工作流工具包。 |
 | 后端与交付实践 | Java / Spring Boot 项目、部署记录、作品集和可验证的交付材料。 |
 
+## 推荐访问路径
+
+| 你想做什么 | 先看哪个项目 | 为什么 |
+| --- | --- | --- |
+| 发布前审计 AI Agent 仓库 | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | 主打安全扫描工具，第一条命令短，也支持 GitHub Action。 |
+| 看完整的发布准备度 | [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | 把 README、CI、secret、MCP、release proof 等证据合成一份报告。 |
+| 快速排查 MCP 配置 | [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | 专门检查配置路径、transport、命令和环境变量假设。 |
+| 看公开作品集源码 | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | 双语 React/Vite 作品集模板，已接好 GitHub Pages。 |
+| 部署学生或练习项目 | [student-deploy-kit](https://github.com/aolingge/student-deploy-kit) | 覆盖前端、Spring Boot、Docker、Nginx 和 VPS 的实用部署路线。 |
+
+## 仓库标签
+
+| 标签 | 含义 | 当前示例 |
+| --- | --- | --- |
+| 核心工具 | 有明确用户、命令、文档和验证路径的主打公开项目。 | `agent-secret-guard`、`agent-reliability-kit`、`mcp-config-doctor` |
+| 支撑组件 | 只解决一个问题的小 CLI 或检查器，后续可合入更大的工具包。 | `repo-release-proof`、`readme-demo-link-check`、`prompt-yaml-lint` |
+| 学习样例 | 主要用于作品集证据、架构练习或部署说明的项目。 | `student-deploy-kit`、`express-locker-backend`、`job-backend` |
+| 内容库 | 知识库或资源清单，重点是导航、贡献标准和持续更新。 | `deutsch-lernen`、`indie-hacker-tools-plus` |
+
 ## 从这里开始
 
 | 项目 | 适合做什么 | 第一条命令 |
@@ -54,6 +73,8 @@
 | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | 一个以项目证据、部署能力和服务清晰度为核心的 GitHub Pages 作品集模板。 |
 | [student-deploy-kit](https://github.com/aolingge/student-deploy-kit) | 面向学生的部署材料：Nginx、Spring Boot、前端、Docker、VPS 安全和故障排查。 |
 | [vps-deploy-doctor](https://github.com/aolingge/vps-deploy-doctor) | 只读 VPS 诊断工具，检查 Nginx、systemd、端口、Docker、防火墙、磁盘、内存和日志。 |
+
+小型 CLI 仓库会保留为专注问题的公开样例，但 Profile 首屏只突出上面的精选入口，避免访客在几十个相似检查器之间迷路。
 
 ## 公开入口
 
