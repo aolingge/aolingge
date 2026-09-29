@@ -1,122 +1,36 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" alt="Aolinge profile banner" width="100%" />
-</p>
+# Aolinge
 
-<h1 align="center">Aolinge</h1>
+I build tools for language learning and everyday development: subtitle apps,
+German study resources, and utilities for reliable AI-agent workflows.
 
-<p align="center">
-  <a href="https://aolingge.dev"><img src="https://img.shields.io/badge/Website-aolingge.dev-0D6B72?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="Website" /></a>
-  <a href="https://github.com/aolingge"><img src="https://img.shields.io/badge/GitHub-aolingge-151515?style=flat-square&logo=github" alt="GitHub profile" /></a>
-  <a href="mailto:1930668092@qq.com"><img src="https://img.shields.io/badge/Email-1930668092%40qq.com-D94A38?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
+English · [简体中文](README.zh-CN.md)
 
-<p align="center">
-  <b>Computer Science student at Chongqing University</b><br />
-  Building local-first safety tools, repo doctors, and delivery workflows for AI-agent-era software.
-</p>
+## Featured Work
 
-<p align="center">
-  English | <a href="README.zh-CN.md">简体中文</a>
-</p>
+### Language learning
 
----
-
-## Focus
-
-I turn fragile development workflows into small tools that are easy to run,
-review, and ship again. This profile is the quick map; the website is the
-broader portfolio and project index.
-
-Main hub: [aolingge.dev](https://aolingge.dev) · Projects: [aolingge.dev/projects](https://aolingge.dev/projects/) · Blog RSS: [blog.aolingge.dev/feed](https://blog.aolingge.dev/feed/)
-
-| Area | What I build |
+| Project | What it does |
 | --- | --- |
-| AI-agent reliability | CLIs that check repo instructions, secrets, CI, MCP configs, run traces, and release readiness before an agent marks work as done. |
-| Local automation | Repeatable scripts and workflow kits for Windows-first development, deployment checks, and safe long-running agent tasks. |
-| Practical backend and delivery | Java / Spring Boot practice projects, deployment notes, and portfolio material with clear verification paths. |
+| [yt-dual-subs](https://github.com/aolingge/yt-dual-subs) | YouTube bilingual subtitles with word highlighting, hover lookup, sentence practice, and saved phrases for Chrome and Edge. |
+| [DeutschOverlay](https://github.com/aolingge/DeutschOverlay) | A Windows caption overlay for German speech and English/Chinese-to-German translation. |
+| [qingjian-german](https://github.com/aolingge/qingjian-german) | German dictionary definitions and CEFR labels for the qingjian app, with build and verification scripts. |
+| [deutsch-lernen](https://github.com/aolingge/deutsch-lernen) | German study resources for Chinese speakers, from A1 to C1, including exams and preparation for Germany. |
 
-## Recommended Paths
+### Developer tools
 
-| If you want to... | Start with | Why |
-| --- | --- | --- |
-| Audit an AI-agent repository before launch | [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | Flagship safety scanner with a short first run and GitHub Action support. |
-| Understand the whole release-readiness picture | [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | Combines README quality, CI evidence, secrets, MCP hygiene, and release proof. |
-| Debug MCP setup quickly | [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | Focused local diagnosis for config paths, transports, commands, and env assumptions. |
-| See the public portfolio source | [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | Bilingual React/Vite portfolio template wired for GitHub Pages. |
-| Deploy a student or practice project | [student-deploy-kit](https://github.com/aolingge/student-deploy-kit) | Practical deployment recipes for frontend, Spring Boot, Docker, Nginx, and VPS work. |
-
-## Repository Labels
-
-| Label | Meaning | Current examples |
-| --- | --- | --- |
-| Core tool | Polished public project with a clear user, command, docs, and verification path. | `agent-secret-guard`, `agent-reliability-kit`, `mcp-config-doctor` |
-| Building block | Small CLI or check that solves one problem and may later merge into a larger kit. | `repo-release-proof`, `readme-demo-link-check`, `prompt-yaml-lint` |
-| Learning sample | Project kept mainly for portfolio evidence, architecture practice, or deployment notes. | `student-deploy-kit`, `express-locker-backend`, `job-backend` |
-| Content base | Knowledge or resource repository where navigation and contribution rules matter most. | `deutsch-lernen`, `indie-hacker-tools-plus` |
-
-## Start Here
-
-| Project | Use it for | First command |
-| --- | --- | --- |
-| [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | Fast safety scan for AI-agent repos, MCP configs, browser profile paths, and risky GitHub Actions permissions. | `npx agent-secret-guard scan . --fail-on high` |
-| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | Diagnose MCP config files before an AI client fails to connect. | `npx mcp-config-doctor --config mcp.json` |
-| [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | One report for AI-agent repo readiness, README quality, CI, secrets, MCP, n8n, and release risk. | `npx agent-reliability-kit scan .` |
-| [repo-release-proof](https://github.com/aolingge/repo-release-proof) | Check whether release notes prove what changed, how it was verified, and where it was published. | `npx github:aolingge/repo-release-proof --path RELEASE.md` |
-
-## Portfolio
-
-| Project | Why it matters |
+| Project | What it does |
 | --- | --- |
-| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | Local diagnosis for MCP config paths, transports, commands, and environment assumptions before an AI client fails. |
-| [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | Cross-checks README quality, CI evidence, secret risk, MCP hygiene, and release proof in one readiness report. |
-| [repo-release-proof](https://github.com/aolingge/repo-release-proof) | Keeps release notes accountable by linking change claims to verification and publication evidence. |
-| [agent-symphony-kit](https://github.com/aolingge/agent-symphony-kit) | Local-first task files, preflight checks, gate reports, and workflow contracts for coding agents. |
-| [agent-run-trace-pack](https://github.com/aolingge/agent-run-trace-pack) | Redacted, reviewable trace packs for agent and shell runs. |
-| [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | A GitHub Pages portfolio template focused on proof, deployment, and service clarity. |
-| [student-deploy-kit](https://github.com/aolingge/student-deploy-kit) | Beginner-friendly deployment material for Nginx, Spring Boot, frontend apps, Docker, VPS security, and troubleshooting. |
-| [vps-deploy-doctor](https://github.com/aolingge/vps-deploy-doctor) | Read-only VPS diagnostics for Nginx, systemd, ports, Docker, firewall, disk, memory, and logs. |
+| [agent-secret-guard](https://github.com/aolingge/agent-secret-guard) | Checks AI-agent repositories, MCP configuration, and GitHub Actions for secret exposure and risky settings. |
+| [agent-reliability-kit](https://github.com/aolingge/agent-reliability-kit) | Reviews README quality, CI evidence, security, and release readiness in one report. |
+| [mcp-config-doctor](https://github.com/aolingge/mcp-config-doctor) | Diagnoses MCP configuration paths, transports, commands, and environment assumptions locally. |
 
-Smaller CLI repositories stay public when they are useful as focused examples, but the
-profile highlights the sharper entry points above so visitors do not have to choose
-between dozens of similar checks.
+## Working style
 
-## Public Surfaces
+Small tools, clear documentation, and checks that show what actually works.
+Public examples exclude credentials and private data.
 
-| Surface | Purpose |
-| --- | --- |
-| [GitHub profile](https://github.com/aolingge) | Fast identity, selected tools, and contact path. |
-| [aolingge.dev](https://aolingge.dev) | Portfolio, project index, and longer-form notes. |
-| [open-source-portfolio](https://github.com/aolingge/open-source-portfolio) | The React/Vite source for the bilingual portfolio page. |
-| [maintenance digest](./.github/workflows/maintenance-digest.yml) | Weekly repository-health issue for profile maintenance, Dependabot visibility, and security-alert awareness. |
+**Stack:** JavaScript / TypeScript · Python · Node.js · Java / Spring Boot · PowerShell
 
-## Available For
+## Contact
 
-I take a small number of focused launch-readiness audits for public or
-shareable AI-agent, MCP, GitHub Actions, and local automation repositories.
-
-| Service | Deliverable |
-| --- | --- |
-| AI Agent Repo Safety Audit | A 24-hour Markdown risk summary covering agent instructions, MCP args, local credential paths, browser profile exposure, CI permissions, and practical fixes. |
-| Fix PR | A scoped pull request that moves risky examples toward safer defaults after an audit. |
-| Local automation hardening | A review of repo docs, workflows, and scripts before public release or handoff. |
-
-Send a public repository link by email or GitHub. Do not send production
-secrets, cookies, private keys, or live credentials.
-
-## Toolbox
-
-TypeScript, JavaScript, Node.js, Python, Java, Spring Boot, GitHub Actions, PowerShell.
-
-## Working Style
-
-- Make the first run boring: short commands, clear defaults, and concrete output.
-- Keep reports local-first and careful around secrets, browser profiles, and account material.
-- Treat documentation as part of the product, not a cleanup step.
-- Prefer small, inspectable tools that compose into a stronger workflow.
-
----
-
-<p align="center">
-  <b>Clean workflows. Local-first safety. Reusable delivery.</b><br />
-  <sub>Chongqing City · Chongqing University · open-source notes, tools, and experiments</sub>
-</p>
+[Email](mailto:1930668092@qq.com) · [Public repositories](https://github.com/aolingge?tab=repositories&type=source)
